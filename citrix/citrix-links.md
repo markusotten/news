@@ -66,14 +66,14 @@ The YouTube feeds have **no `web_fetch` fallback** — that tool refuses youtube
 - **`Elux-Download-Pages` is mixed case.** Preserve it exactly; do not lowercase it.
 - **Ignore these select-box entries** — they are not products: `Select a Product`, `Additional Products and Services`, `View Additional Downloads`.
 - **XenServer does not use a Citrix feed.** The Citrix download page is a stub pointing at https://www.xenserver.com/downloads, which is server-rendered and dated and covers XenServer 9, 8.4, XenCenter, VM Tools and the optional components. Phase 2 parses that page directly; the row is marked `n/a`.
-- **Validate download URLs.** The date in a download path should match the item's stated date. The XenServer 9 source ISO link is malformed upstream (`/xenserver/026-07-16.0907/`, missing the leading `2`) — report such links under Skill-Bug rather than passing them on silently.
+- **Validate download URLs.** The date in a download path should match the item's stated date. The XenServer 9 source ISO link is malformed upstream (`/xenserver/026-07-16.0907/`, missing the leading `2`) — record such links in `news/skill-bugs.md` rather than passing them on silently.
 
 ## Feed status values
 
 | Value | Meaning |
 | --- | --- |
 | `ok YYYY-MM-DD` | Returned 200 and parseable XML on that date |
-| `fail YYYY-MM-DD (reason)` | Failed on that date; an open Skill-Bug entry should exist |
+| `fail YYYY-MM-DD (reason)` | Failed on that date; an open entry in `news/skill-bugs.md` should exist |
 | `unverified` | Never yet returned a valid feed |
 | `n/a` | No Citrix feed for this product (see notes) |
 
@@ -81,4 +81,4 @@ The daily run updates this column for every feed it actually fetches and commits
 
 ## Maintenance
 
-The daily run compares the live select box against the "Products in the select box" table and reports any drift under **Skill-Bug**. Update this file when a product is added, removed, or renamed, then clear the corresponding Skill-Bug entry.
+The daily run compares the live select box against the "Products in the select box" table and records any drift in `news/skill-bugs.md`. Update this file when a product is added, removed, or renamed, then resolve the corresponding entry in `news/skill-bugs.md`.
