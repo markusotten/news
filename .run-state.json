@@ -1,8 +1,4 @@
 {
-  "last_successful_run": null,
-  "in_progress": {
-    "date": "2026-08-13",
-    "completed_phases": ["security", "downloads", "catalog"],
-    "products_done": []
-  }
+  "last_successful_run": "2026-08-13T11:48:15Z",
+  "in_progress": null
 }

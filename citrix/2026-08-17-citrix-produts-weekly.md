@@ -1,19 +1,27 @@
-# Citrix Product Update — 2026-08-13
-*Covering 2026-08-12T11:48Z to 2026-08-13T11:48Z (no prior run-state found; window fell back to the last 24 hours)*
+# Citrix Product Update — Weekly Rollup
+*Covering Monday 2026-08-10 through Thursday 2026-08-13*
+
+Built from the daily notes dated 2026-08-10 through 2026-08-13. Only one daily note exists in this range — the `citrix-product-update` skill's first run in this repository, dated 2026-08-13, whose window fell back to the last 24 hours in the absence of prior run-state.
 
 ## Products
 
 ### Releases
 
+**2026-08-12**
+
 **Citrix Virtual Apps and Desktops - HDX graphics super resolution reaches General Availability.** HDX graphics super resolution automatically engages when a session is running under constrained bandwidth and the client supports it, upscaling session graphics to keep perceived visual quality high. It moves from preview to GA in the 2603 current release, making it usable in production without an opt-in flag. (2026-08-12, https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/whats-new.html)
 
 ### Catalog Changes
+
+**2026-08-13**
 
 Initial catalog build — no prior `citrix-produts.md` existed in this repository. Enumerated 60 products from https://docs.citrix.com/, https://docs.netscaler.com/ and https://docs.xenserver.com/ and recorded them in `citrix/citrix-produts.md`. Future runs will report only additions, renames and removals against this baseline.
 
 ## Deep Dives
 
-**Citrix Virtual Apps and Desktops - Delivery Controller SQL Server 2025 support.** (2026-08-12, https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/whats-new.html)
+**2026-08-12**
+
+**Citrix Virtual Apps and Desktops - Delivery Controller SQL Server 2025 support.** (https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/whats-new.html)
 
 The Delivery Controller — the core broker component of a CVAD Site — now supports Microsoft SQL Server 2025 as its backend database, joining the existing list of supported SQL Server versions. Admins can point Site configuration at a SQL Server 2025 instance (standalone or a supported HA/AlwaysOn topology) without workarounds.
 
@@ -25,7 +33,7 @@ The Delivery Controller — the core broker component of a CVAD Site — now sup
 
 ---
 
-**Citrix Virtual Apps and Desktops - Microsoft Entra ID single sign-on to VDAs (Preview).** (2026-08-12, https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/whats-new.html)
+**Citrix Virtual Apps and Desktops - Microsoft Entra ID single sign-on to VDAs (Preview).** (https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/whats-new.html)
 
 Session hosts (VDAs) that are Microsoft Entra hybrid-joined can now participate in single sign-on using Entra ID credentials, giving CVAD an authentication path that doesn't rely solely on traditional AD-only Kerberos/NTLM logon.
 
@@ -37,7 +45,7 @@ Session hosts (VDAs) that are Microsoft Entra hybrid-joined can now participate 
 
 ---
 
-**Citrix Virtual Apps and Desktops - Citrix Aidrien integration in Web Studio and Director.** (2026-08-12, https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/whats-new.html)
+**Citrix Virtual Apps and Desktops - Citrix Aidrien integration in Web Studio and Director.** (https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/whats-new.html)
 
 Citrix's AI assistant, Aidrien, is now reachable directly from both Web Studio (the CVAD management console) and Director (the monitoring/troubleshooting console). Clicking its icon opens a Citrix Cloud-authenticated chat panel that answers questions from the Citrix knowledge base without leaving the console.
 
@@ -49,8 +57,8 @@ Citrix's AI assistant, Aidrien, is now reachable directly from both Web Studio (
 
 ## Skill-Bug
 
-- **XenServer download RSS feed is dead.** `citrix-links.md` lists the XenServer feed as `https://www.citrix.com/content/citrix/en_us/downloads/citrix-hypervisor.rss`, which returns HTTP 404. The "Subscribe to RSS notifications" link on https://www.citrix.com/downloads/xenserver/ points to `/content/citrix/en_us/downloads/xenserver.rss`, which itself 301-redirects back to the dead `citrix-hypervisor.rss` URL. No working RSS feed could be found for XenServer downloads; the download page was not scraped as a fallback per skill guidance. XenServer download announcements are not covered until this is fixed.
-- **community.citrix.com and community.citrix.com/techzone-blogs are behind a Cloudflare bot challenge.** Both return HTTP 403 with a "Just a moment..." interstitial to automated fetches (tried with WebFetch and curl with a browser User-Agent). Community featured articles, upcoming events, and Tech Zone blog posts are not covered until this is fixed or an alternate access path is found.
+- **XenServer download RSS feed is dead.** `citrix-links.md` lists the XenServer feed as `https://www.citrix.com/content/citrix/en_us/downloads/citrix-hypervisor.rss`, which returns HTTP 404. The "Subscribe to RSS notifications" link on https://www.citrix.com/downloads/xenserver/ points to `/content/citrix/en_us/downloads/xenserver.rss`, which itself 301-redirects back to the dead `citrix-hypervisor.rss` URL. XenServer download announcements are not covered until this is fixed.
+- **community.citrix.com and community.citrix.com/techzone-blogs are behind a Cloudflare bot challenge.** Both return HTTP 403 with a "Just a moment..." interstitial to automated fetches. Community featured articles, upcoming events, and Tech Zone blog posts are not covered until this is fixed or an alternate access path is found.
 
 <!-- unreachable: https://community.citrix.com/ -->
 <!-- unreachable: https://community.citrix.com/techzone-blogs/ -->
