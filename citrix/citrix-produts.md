@@ -11,6 +11,7 @@ Canonical list of products tracked in Phase 4 ("What's New") of the `citrix-prod
 | Citrix Cloud | https://docs.citrix.com/en-us/citrix-cloud |
 | Citrix Cloud Government | https://docs.citrix.com/en-us/citrix-cloud-government |
 | Citrix Cloud Japan | https://docs.citrix.com/en-us/citrix-cloud-japan |
+| Client app management | https://docs.citrix.com/en-us/client-app-management |
 | Citrix DaaS | https://docs.citrix.com/en-us/citrix-daas |
 | Citrix DaaS Flex | https://docs.citrix.com/en-us/citrix-daas-flex |
 | Citrix DaaS Standard for Azure | https://docs.citrix.com/en-us/citrix-daas-azure |
@@ -21,10 +22,10 @@ Canonical list of products tracked in Phase 4 ("What's New") of the `citrix-prod
 | Citrix Experience Insights Flex | https://docs.citrix.com/en-us/citrix-experience-insights-flex |
 | Federated Authentication Service | https://docs.citrix.com/en-us/federated-authentication-service |
 | Citrix Gateway Service | https://docs.citrix.com/en-us/citrix-gateway-service |
-| Global App Configuration Service | https://docs.citrix.com/en-us/global-app-config-service |
 | Citrix HDX Plus for Windows 365 | https://docs.citrix.com/en-us/citrix-hdxplus-w365 |
 | HDX RealTime Optimization Pack | https://docs.citrix.com/en-us/hdx-optimization |
 | ITSM Adapter for ServiceNow | https://docs.citrix.com/en-us/citrix-itsm-adapter-service |
+| LAS for NetScaler | https://docs.netscaler.com/en-us/citrix-adc/las-for-netscaler.html |
 | Licensing | https://docs.citrix.com/en-us/licensing |
 | Linux Virtual Delivery Agent | https://docs.citrix.com/en-us/linux-virtual-delivery-agent |
 | MAM SDK | https://docs.citrix.com/en-us/mam-sdk |

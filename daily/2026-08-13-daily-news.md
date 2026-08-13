@@ -1,5 +1,5 @@
 # Citrix Product Update — 2026-08-13
-*Covering 2026-08-12T11:48Z to 2026-08-13T11:48Z (no prior run-state found; window fell back to the last 24 hours)*
+*Covering 2026-08-12T11:48Z to 2026-08-13T13:35Z (initial window 2026-08-12T11:48Z–2026-08-13T11:48Z fell back to the last 24 hours, no prior run-state found; extended to 2026-08-13T13:35Z by a same-day follow-up run)*
 
 ## Products
 
@@ -10,6 +10,15 @@
 ### Catalog Changes
 
 Initial catalog build — no prior `citrix-produts.md` existed in this repository. Enumerated 60 products from https://docs.citrix.com/, https://docs.netscaler.com/ and https://docs.xenserver.com/ and recorded them in `citrix/citrix-produts.md`. Future runs will report only additions, renames and removals against this baseline.
+
+A same-day reconciliation pass against the same three docs sites found two corrections to that initial build:
+
+- **Renamed:** "Global App Configuration Service" is now presented as "Client app management" on docs.citrix.com (https://docs.citrix.com/en-us/client-app-management) — the docs page itself states the service was "previously known as the Global App Configuration Service." Updated in `citrix/citrix-produts.md`.
+- **Added:** "LAS for NetScaler" (License Activation Service), a cloud-based licensing product for the NetScaler suite, listed on the docs.netscaler.com landing page but missing from the initial build. https://docs.netscaler.com/en-us/citrix-adc/las-for-netscaler.html
+
+## Community
+
+**XenServer 9 Deep Dive Webinar.** Citrix's Tech Zone community events calendar lists a "Deep Dive Webinar Series - Inside Citrix XenServer 9: Updates, strategy, and roadmap," presented by the XenServer Product Management team, covering security, streamed updates, performance and migration considerations for XenServer 9. Thursday, 2026-08-20, 15:00 UTC, online. https://community.citrix.com/events/event/151-deep-dive-webinar-series-inside-citrix-xenserver-9-updates-strategy-and-roadmap/
 
 ## Deep Dives
 
