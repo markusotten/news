@@ -32,7 +32,7 @@ URL patterns:
 | StoreFront Cloud | `citrix-workspace` | https://www.citrix.com/downloads/citrix-workspace/ | https://www.citrix.com/content/citrix/en_us/downloads/citrix-workspace.rss | — |
 | Tools and Utilities | `citrix-tools` | https://www.citrix.com/downloads/citrix-tools/ | https://www.citrix.com/content/citrix/en_us/downloads/citrix-tools.rss | — |
 | Unicon eLux Scout | `Elux-Download-Pages` | https://www.citrix.com/downloads/Elux-Download-Pages/ | https://www.citrix.com/content/citrix/en_us/downloads/Elux-Download-Pages.rss | — |
-| XenServer | `xenserver` | https://www.citrix.com/downloads/xenserver/ | https://www.citrix.com/content/citrix/en_us/downloads/xenserver.rss | — |
+| XenServer | `xenserver` | https://www.citrix.com/downloads/xenserver/ | https://www.citrix.com/content/citrix/en_us/downloads/citrix-hypervisor.rss | — |
 
 ## Additional products
 
