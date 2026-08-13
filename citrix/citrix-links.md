@@ -32,7 +32,7 @@ URL patterns:
 | StoreFront Cloud | `citrix-workspace` | https://www.citrix.com/downloads/citrix-workspace/ | https://www.citrix.com/content/citrix/en_us/downloads/citrix-workspace.rss | unverified |
 | Tools and Utilities | `citrix-tools` | https://www.citrix.com/downloads/citrix-tools/ | https://www.citrix.com/content/citrix/en_us/downloads/citrix-tools.rss | unverified |
 | Unicon eLux Scout | `Elux-Download-Pages` | https://www.citrix.com/downloads/Elux-Download-Pages/ | https://www.citrix.com/content/citrix/en_us/downloads/Elux-Download-Pages.rss | unverified |
-| XenServer | `xenserver` | https://www.xenserver.com/downloads | — see note | n/a |
+| XenServer | `xenserver` | https://www.xenserver.com/downloads | **none — parse the download page** | n/a |
 
 ## Additional products
 
@@ -57,6 +57,8 @@ Used by Phase 6 instead of parsing the community pages. These require `curl` —
 | YouTube — Citrix | https://www.youtube.com/feeds/videos.xml?channel_id=UCBnEJLbLEPoP_6lIZU5_qQA | `www.youtube.com` | unverified |
 | YouTube — NetScaler | https://www.youtube.com/feeds/videos.xml?channel_id=UCT2QIrhHsy_NGC8yMnfQOEw | `www.youtube.com` | unverified |
 
+**Do not fall back to the community HTML pages.** `community.citrix.com/`, `/techzone-blogs/` and `/tech-zone-home/` sit behind a Cloudflare bot challenge and return 403 to both `curl` and `web_fetch`. Only the feed URLs above are usable; if one fails, record it and skip.
+
 The YouTube feeds have **no `web_fetch` fallback** — that tool refuses youtube.com under `ROBOTS_DISALLOWED`. Without the allowlist entry these channels cannot be covered at all. The three `community.citrix.com` feeds can fall back to parsing their HTML pages.
 
 
@@ -65,15 +67,16 @@ The YouTube feeds have **no `web_fetch` fallback** — that tool refuses youtube
 - **Never derive a value from the label.** Several diverge sharply: NetScaler is `citrix-adc`, NetScaler Console is `citrix-application-management`, StoreFront Cloud is `citrix-workspace`, Citrix Observability is `citrix-monitoring-observability`, Citrix Workspace app is `workspace-app`.
 - **`Elux-Download-Pages` is mixed case.** Preserve it exactly; do not lowercase it.
 - **Ignore these select-box entries** — they are not products: `Select a Product`, `Additional Products and Services`, `View Additional Downloads`.
+- **`n/a` means there is no feed — parse the Download page column instead.** Never construct a `.rss` URL for such a row, and never follow a product page's own "Subscribe to RSS notifications" link: Citrix's XenServer page still advertises a feed that 301-redirects to the long-dead `citrix-hypervisor.rss`.
 - **XenServer does not use a Citrix feed.** The Citrix download page is a stub pointing at https://www.xenserver.com/downloads, which is server-rendered and dated and covers XenServer 9, 8.4, XenCenter, VM Tools and the optional components. Phase 2 parses that page directly; the row is marked `n/a`.
-- **Validate download URLs.** The date in a download path should match the item's stated date. The XenServer 9 source ISO link is malformed upstream (`/xenserver/026-07-16.0907/`, missing the leading `2`) — record such links in `news/skill-bugs.md` rather than passing them on silently.
+- **Validate download URLs.** The date in a download path should match the item's stated date. The XenServer 9 source ISO link is malformed upstream (`/xenserver/026-07-16.0907/`, missing the leading `2`) — record such links in `.skill-bugs.md` rather than passing them on silently.
 
 ## Feed status values
 
 | Value | Meaning |
 | --- | --- |
 | `ok YYYY-MM-DD` | Returned 200 and parseable XML on that date |
-| `fail YYYY-MM-DD (reason)` | Failed on that date; an open entry in `news/skill-bugs.md` should exist |
+| `fail YYYY-MM-DD (reason)` | Failed on that date; an open entry in `.skill-bugs.md` should exist |
 | `unverified` | Never yet returned a valid feed |
 | `n/a` | No Citrix feed for this product (see notes) |
 
@@ -81,4 +84,4 @@ The daily run updates this column for every feed it actually fetches and commits
 
 ## Maintenance
 
-The daily run compares the live select box against the "Products in the select box" table and records any drift in `news/skill-bugs.md`. Update this file when a product is added, removed, or renamed, then resolve the corresponding entry in `news/skill-bugs.md`.
+The daily run compares the live select box against the "Products in the select box" table and records any drift in `.skill-bugs.md`. Update this file when a product is added, removed, or renamed, then resolve the corresponding entry in `.skill-bugs.md`.
