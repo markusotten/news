@@ -54,11 +54,3 @@ Citrix's AI assistant, Aidrien, is now reachable directly from both Web Studio (
 *Pros / cons:* Cuts context-switching during troubleshooting and surfaces Citrix's own knowledge base at the point of work, with sign-in via existing Citrix Cloud credentials. The tradeoff is that it requires a Citrix Cloud sign-in and outbound connectivity from the admin's browser — a consideration for air-gapped or high-security environments — and, like any AI assistant, its answers still need to be verified before being acted on in production.
 
 *What it changes:* Doesn't replace the existing Citrix Support/KB search workflow, but shortens it by pulling the same knowledge base into the consoles where the problem is actually being worked.
-
-## Skill-Bug
-
-- **XenServer download RSS feed is dead.** `citrix-links.md` lists the XenServer feed as `https://www.citrix.com/content/citrix/en_us/downloads/citrix-hypervisor.rss`, which returns HTTP 404. The "Subscribe to RSS notifications" link on https://www.citrix.com/downloads/xenserver/ points to `/content/citrix/en_us/downloads/xenserver.rss`, which itself 301-redirects back to the dead `citrix-hypervisor.rss` URL. XenServer download announcements are not covered until this is fixed.
-- **community.citrix.com and community.citrix.com/techzone-blogs are behind a Cloudflare bot challenge.** Both return HTTP 403 with a "Just a moment..." interstitial to automated fetches. Community featured articles, upcoming events, and Tech Zone blog posts are not covered until this is fixed or an alternate access path is found.
-
-<!-- unreachable: https://community.citrix.com/ -->
-<!-- unreachable: https://community.citrix.com/techzone-blogs/ -->
