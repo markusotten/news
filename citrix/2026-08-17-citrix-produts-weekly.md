@@ -1,7 +1,7 @@
 # Citrix Product Update — Weekly Rollup
 *Covering Monday 2026-08-10 through Thursday 2026-08-13*
 
-Built from the daily notes dated 2026-08-10 through 2026-08-13. Only one daily note exists in this range — the `citrix-product-update` skill's first run in this repository, dated 2026-08-13, whose window fell back to the last 24 hours in the absence of prior run-state.
+Built from the daily notes dated 2026-08-10 through 2026-08-13. Only one daily note exists in this range — the `citrix-product-update` skill's first two runs in this repository, both dated 2026-08-13. The first run's window fell back to the last 24 hours in the absence of prior run-state; a same-day follow-up run extended coverage through 2026-08-13T13:35Z.
 
 ## Products
 
@@ -16,6 +16,17 @@ Built from the daily notes dated 2026-08-10 through 2026-08-13. Only one daily n
 **2026-08-13**
 
 Initial catalog build — no prior `citrix-produts.md` existed in this repository. Enumerated 60 products from https://docs.citrix.com/, https://docs.netscaler.com/ and https://docs.xenserver.com/ and recorded them in `citrix/citrix-produts.md`. Future runs will report only additions, renames and removals against this baseline.
+
+A same-day reconciliation pass against the same three docs sites found two corrections to that initial build:
+
+- **Renamed:** "Global App Configuration Service" is now presented as "Client app management" on docs.citrix.com (https://docs.citrix.com/en-us/client-app-management) — the docs page itself states the service was "previously known as the Global App Configuration Service."
+- **Added:** "LAS for NetScaler" (License Activation Service), a cloud-based licensing product for the NetScaler suite, listed on the docs.netscaler.com landing page but missing from the initial build. https://docs.netscaler.com/en-us/citrix-adc/las-for-netscaler.html
+
+## Community
+
+**2026-08-13**
+
+**XenServer 9 Deep Dive Webinar.** Citrix's Tech Zone community events calendar lists a "Deep Dive Webinar Series - Inside Citrix XenServer 9: Updates, strategy, and roadmap," presented by the XenServer Product Management team, covering security, streamed updates, performance and migration considerations for XenServer 9. Thursday, 2026-08-20, 15:00 UTC, online. https://community.citrix.com/events/event/151-deep-dive-webinar-series-inside-citrix-xenserver-9-updates-strategy-and-roadmap/
 
 ## Deep Dives
 
