@@ -13,6 +13,10 @@ None.
 
 **Citrix Workspace app for Windows LTSR 2507.1 Cumulative Update 3.** New cumulative update for the Long Term Service Release branch of Citrix Workspace app for Windows. (2026-08-13, [Download](http://www.citrix.com/downloads/workspace-app/workspace-app-for-windows-long-term-service-release/workspace-app-for-windows-LTSR-Latest.html))
 
+#### Changes
+
+Added **Global App Configuration Service** to the product catalog — a Citrix Workspace app / Client App configuration and settings-distribution service with its own dated release history, previously untracked. ([Docs](https://docs.citrix.com/en-us/citrix-workspace/global-app-config-service.html))
+
 ### Press
 
 ### Community

@@ -22,6 +22,7 @@ Canonical list of products tracked in Phase 4 ("What's New") of the `citrix-prod
 | Citrix Experience Insights Flex | https://docs.citrix.com/en-us/citrix-experience-insights-flex |
 | Federated Authentication Service | https://docs.citrix.com/en-us/federated-authentication-service |
 | Citrix Gateway Service | https://docs.citrix.com/en-us/citrix-gateway-service |
+| Global App Configuration Service | https://docs.citrix.com/en-us/citrix-workspace/global-app-config-service.html |
 | Citrix HDX Plus for Windows 365 | https://docs.citrix.com/en-us/citrix-hdxplus-w365 |
 | HDX RealTime Optimization Pack | https://docs.citrix.com/en-us/hdx-optimization |
 | ITSM Adapter for ServiceNow | https://docs.citrix.com/en-us/citrix-itsm-adapter-service |
