@@ -17,6 +17,8 @@ None.
 
 **Citrix Workspace app for Windows LTSR 2507.1 Cumulative Update 3.** New cumulative update for the Long Term Service Release branch of Citrix Workspace app for Windows. (2026-08-13, http://www.citrix.com/downloads/workspace-app/workspace-app-for-windows-long-term-service-release/workspace-app-for-windows-LTSR-Latest.html)
 
+**Citrix Workspace app 2604.10 for Linux.** New current release of Citrix Workspace app for Linux. (2026-08-14, http://www.citrix.com/downloads/workspace-app/linux/workspace-app-for-linux-latest.html)
+
 ### Changes
 
 **2026-08-13**
@@ -77,7 +79,7 @@ Citrix's AI assistant, Aidrien, is now reachable directly from both Web Studio (
 ## Metadata
 
 <sub>
-Covering dailies 2026-08-10 → 2026-08-14 · Generated 2026-08-14<br>
+Covering dailies 2026-08-10 → 2026-08-14 · Generated 2026-08-14 (updated 2026-08-14)<br>
 Phases run: security, downloads, catalog, whatsnew, press, community, weekly<br>
 Open defects: 2 — see <code>.skill-bugs.md</code>
 </sub>

@@ -13,6 +13,8 @@ None.
 
 **Citrix Workspace app for Windows LTSR 2507.1 Cumulative Update 3.** New cumulative update for the Long Term Service Release branch of Citrix Workspace app for Windows. (2026-08-13, [Download](http://www.citrix.com/downloads/workspace-app/workspace-app-for-windows-long-term-service-release/workspace-app-for-windows-LTSR-Latest.html))
 
+**Citrix Workspace app 2604.10 for Linux.** New current release of Citrix Workspace app for Linux. (2026-08-14, [Download](http://www.citrix.com/downloads/workspace-app/linux/workspace-app-for-linux-latest.html))
+
 #### Changes
 
 Added **Global App Configuration Service** to the product catalog — a Citrix Workspace app / Client App configuration and settings-distribution service with its own dated release history, previously untracked. ([Docs](https://docs.citrix.com/en-us/citrix-workspace/global-app-config-service.html))
@@ -26,7 +28,7 @@ XenServer Product Management is running a **Deep Dive Webinar Series** session, 
 ## Metadata
 
 <sub>
-Window: 2026-08-13T14:23:36Z → 2026-08-14T02:12:53Z · Last successful run: 2026-08-13T14:23:36Z<br>
+Window: 2026-08-13T14:23:36Z → 2026-08-14T08:24:25Z (cumulative across today's runs) · Last successful run: 2026-08-14T02:12:53Z<br>
 Phases run: security, downloads, catalog, whatsnew, press, community, weekly<br>
 Open defects: 2 — see <code>.skill-bugs.md</code>
 </sub>
