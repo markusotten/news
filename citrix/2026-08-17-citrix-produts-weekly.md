@@ -1,5 +1,5 @@
-# Citrix Product Update — 2026-08-17
-*Covering 2026-08-10 to 2026-08-16*
+# Citrix Product Update - Weekly Rollup
+*Covering Monday 2026-08-10 to Sunday 2026-08-16*
 
 ## Security Bulletin
 
@@ -13,6 +13,10 @@ None.
 
 **Citrix Virtual Apps and Desktops - HDX graphics super resolution reaches General Availability.** HDX graphics super resolution automatically engages when a session is running under constrained bandwidth and the client supports it, upscaling session graphics to keep perceived visual quality high. It moves from preview to GA in the 2603 current release, making it usable in production without an opt-in flag. (2026-08-12, https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/whats-new.html)
 
+**2026-08-14**
+
+**Citrix Workspace app for Windows LTSR 2507.1 Cumulative Update 3.** New cumulative update for the Long Term Service Release branch of Citrix Workspace app for Windows. (2026-08-13, http://www.citrix.com/downloads/workspace-app/workspace-app-for-windows-long-term-service-release/workspace-app-for-windows-LTSR-Latest.html)
+
 ### Changes
 
 **2026-08-13**
@@ -20,11 +24,15 @@ None.
 - **Renamed:** "Global App Configuration Service" is now presented as "Client app management" on docs.citrix.com (https://docs.citrix.com/en-us/client-app-management) — the docs page itself states the service was "previously known as the Global App Configuration Service."
 - **Added:** "LAS for NetScaler" (License Activation Service), a cloud-based licensing product for the NetScaler suite, listed on the docs.netscaler.com landing page but missing from the initial build. https://docs.netscaler.com/en-us/citrix-adc/las-for-netscaler.html
 
+**2026-08-14**
+
+- **Added:** "Global App Configuration Service" — docs.citrix.com separately lists this as its own entry alongside "Client app management," with its own dated release history. https://docs.citrix.com/en-us/citrix-workspace/global-app-config-service.html
+
 ## Community
 
-**2026-08-13**
+**2026-08-13 / 2026-08-14**
 
-**XenServer 9 Deep Dive Webinar.** Citrix's Tech Zone community events calendar lists a "Deep Dive Webinar Series - Inside Citrix XenServer 9: Updates, strategy, and roadmap," presented by the XenServer Product Management team, covering security, streamed updates, performance and migration considerations for XenServer 9. Thursday, 2026-08-20, 15:00 UTC, online. https://community.citrix.com/events/event/151-deep-dive-webinar-series-inside-citrix-xenserver-9-updates-strategy-and-roadmap/
+**XenServer 9 Deep Dive Webinar.** Citrix's Tech Zone community events calendar lists a "Deep Dive Webinar Series - Inside Citrix XenServer 9: Updates, strategy, and roadmap," presented by the XenServer Product Management team (Jose Augustin and Marshall Wu), covering security, streamed updates, performance and migration considerations for XenServer 9. Thursday, 2026-08-20, 15:00 UTC, online. https://community.citrix.com/events/event/151-deep-dive-webinar-series-inside-citrix-xenserver-9-updates-strategy-and-roadmap/
 
 ## Deep Dives
 
@@ -69,7 +77,7 @@ Citrix's AI assistant, Aidrien, is now reachable directly from both Web Studio (
 ## Metadata
 
 <sub>
-Covering dailies 2026-08-10 → 2026-08-13 · Generated 2026-08-13<br>
+Covering dailies 2026-08-10 → 2026-08-14 · Generated 2026-08-14<br>
 Phases run: security, downloads, catalog, whatsnew, press, community, weekly<br>
-Open defects: 3 — see <code>.skill-bugs.md</code>
+Open defects: 2 — see <code>.skill-bugs.md</code>
 </sub>
