@@ -16,7 +16,7 @@ XenServer Product Management is running a **Deep Dive Webinar Series** session, 
 ## Metadata
 
 <sub>
-Window: 2026-08-14T08:24:25Z → 2026-08-15T02:09:44Z · Last successful run: 2026-08-14T08:24:25Z<br>
-Phases run: security, downloads, catalog, whatsnew, press, community<br>
+Window: 2026-08-14T08:24:25Z → 2026-08-15T02:30:00Z · Last successful run: 2026-08-14T08:24:25Z<br>
+Phases run: security, downloads, catalog, whatsnew, press, community, weekly<br>
 Open defects: 0 — see <code>.skill-bugs.md</code>
 </sub>
