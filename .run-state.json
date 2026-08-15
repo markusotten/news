@@ -3,7 +3,7 @@
   "phases_run": ["security", "downloads", "catalog", "whatsnew", "press", "community", "weekly"],
   "in_progress": {
     "date": "2026-08-15",
-    "completed_phases": ["security", "downloads"],
+    "completed_phases": ["security", "downloads", "catalog"],
     "feeds_done": ["citrix-analytics", "citrix-early-access-release", "citrix-endpoint-analysis", "citrix-endpoint-management", "citrix-enterprise-browser", "citrix-gateway", "citrix-monitoring-observability", "citrix-sd-wan", "citrix-secure-access", "citrix-secure-private-access", "citrix-session-remote-start", "citrix-virtual-apps-and-desktops", "workspace-app", "citrix-adc", "citrix-application-management", "storefront", "citrix-workspace", "citrix-tools", "Elux-Download-Pages", "citrix-app-layering", "licensing", "provisioning-services", "federated-authentication-service", "xenserver"],
     "whatsnew_done": []
   }
