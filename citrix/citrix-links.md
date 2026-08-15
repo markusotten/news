@@ -13,25 +13,25 @@ URL patterns:
 
 | Product | Value | Download page | RSS feed | Feed status |
 | --- | --- | --- | --- | --- |
-| Citrix Analytics | `citrix-analytics` | https://www.citrix.com/downloads/citrix-analytics/ | https://www.citrix.com/content/citrix/en_us/downloads/citrix-analytics.rss | ok 2026-08-14 |
-| Citrix Early Access Release (EAR) | `citrix-early-access-release` | https://www.citrix.com/downloads/citrix-early-access-release/ | https://www.citrix.com/content/citrix/en_us/downloads/citrix-early-access-release.rss | ok 2026-08-14 |
-| Citrix Endpoint Analysis | `citrix-endpoint-analysis` | https://www.citrix.com/downloads/citrix-endpoint-analysis/ | https://www.citrix.com/content/citrix/en_us/downloads/citrix-endpoint-analysis.rss | ok 2026-08-14 |
-| Citrix Endpoint Management | `citrix-endpoint-management` | https://www.citrix.com/downloads/citrix-endpoint-management/ | https://www.citrix.com/content/citrix/en_us/downloads/citrix-endpoint-management.rss | ok 2026-08-14 |
-| Citrix Enterprise Browser | `citrix-enterprise-browser` | https://www.citrix.com/downloads/citrix-enterprise-browser/ | https://www.citrix.com/content/citrix/en_us/downloads/citrix-enterprise-browser.rss | ok 2026-08-14 |
-| Citrix Gateway | `citrix-gateway` | https://www.citrix.com/downloads/citrix-gateway/ | https://www.citrix.com/content/citrix/en_us/downloads/citrix-gateway.rss | ok 2026-08-14 |
-| Citrix Observability | `citrix-monitoring-observability` | https://www.citrix.com/downloads/citrix-monitoring-observability/ | https://www.citrix.com/content/citrix/en_us/downloads/citrix-monitoring-observability.rss | ok 2026-08-14 |
-| Citrix SD-WAN | `citrix-sd-wan` | https://www.citrix.com/downloads/citrix-sd-wan/ | https://www.citrix.com/content/citrix/en_us/downloads/citrix-sd-wan.rss | ok 2026-08-14 |
-| Citrix Secure Access | `citrix-secure-access` | https://www.citrix.com/downloads/citrix-secure-access/ | https://www.citrix.com/content/citrix/en_us/downloads/citrix-secure-access.rss | ok 2026-08-14 |
-| Citrix Secure Private Access | `citrix-secure-private-access` | https://www.citrix.com/downloads/citrix-secure-private-access/ | https://www.citrix.com/content/citrix/en_us/downloads/citrix-secure-private-access.rss | ok 2026-08-14 |
-| Citrix Session Remote Start | `citrix-session-remote-start` | https://www.citrix.com/downloads/citrix-session-remote-start/ | https://www.citrix.com/content/citrix/en_us/downloads/citrix-session-remote-start.rss | ok 2026-08-14 |
-| Citrix Virtual Apps and Desktops | `citrix-virtual-apps-and-desktops` | https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/ | https://www.citrix.com/content/citrix/en_us/downloads/citrix-virtual-apps-and-desktops.rss | ok 2026-08-14 |
-| Citrix Workspace app | `workspace-app` | https://www.citrix.com/downloads/workspace-app/ | https://www.citrix.com/content/citrix/en_us/downloads/workspace-app.rss | ok 2026-08-14 |
-| NetScaler | `citrix-adc` | https://www.citrix.com/downloads/citrix-adc/ | https://www.citrix.com/content/citrix/en_us/downloads/citrix-adc.rss | ok 2026-08-14 |
-| NetScaler Console | `citrix-application-management` | https://www.citrix.com/downloads/citrix-application-management/ | https://www.citrix.com/content/citrix/en_us/downloads/citrix-application-management.rss | ok 2026-08-14 |
-| StoreFront | `storefront` | https://www.citrix.com/downloads/storefront/ | https://www.citrix.com/content/citrix/en_us/downloads/storefront.rss | ok 2026-08-14 |
-| StoreFront Cloud | `citrix-workspace` | https://www.citrix.com/downloads/citrix-workspace/ | https://www.citrix.com/content/citrix/en_us/downloads/citrix-workspace.rss | ok 2026-08-14 |
-| Tools and Utilities | `citrix-tools` | https://www.citrix.com/downloads/citrix-tools/ | https://www.citrix.com/content/citrix/en_us/downloads/citrix-tools.rss | ok 2026-08-14 |
-| Unicon eLux Scout | `Elux-Download-Pages` | https://www.citrix.com/downloads/Elux-Download-Pages/ | https://www.citrix.com/content/citrix/en_us/downloads/Elux-Download-Pages.rss | ok 2026-08-14 |
+| Citrix Analytics | `citrix-analytics` | https://www.citrix.com/downloads/citrix-analytics/ | https://www.citrix.com/content/citrix/en_us/downloads/citrix-analytics.rss | ok 2026-08-15 |
+| Citrix Early Access Release (EAR) | `citrix-early-access-release` | https://www.citrix.com/downloads/citrix-early-access-release/ | https://www.citrix.com/content/citrix/en_us/downloads/citrix-early-access-release.rss | ok 2026-08-15 |
+| Citrix Endpoint Analysis | `citrix-endpoint-analysis` | https://www.citrix.com/downloads/citrix-endpoint-analysis/ | https://www.citrix.com/content/citrix/en_us/downloads/citrix-endpoint-analysis.rss | ok 2026-08-15 |
+| Citrix Endpoint Management | `citrix-endpoint-management` | https://www.citrix.com/downloads/citrix-endpoint-management/ | https://www.citrix.com/content/citrix/en_us/downloads/citrix-endpoint-management.rss | ok 2026-08-15 |
+| Citrix Enterprise Browser | `citrix-enterprise-browser` | https://www.citrix.com/downloads/citrix-enterprise-browser/ | https://www.citrix.com/content/citrix/en_us/downloads/citrix-enterprise-browser.rss | ok 2026-08-15 |
+| Citrix Gateway | `citrix-gateway` | https://www.citrix.com/downloads/citrix-gateway/ | https://www.citrix.com/content/citrix/en_us/downloads/citrix-gateway.rss | ok 2026-08-15 |
+| Citrix Observability | `citrix-monitoring-observability` | https://www.citrix.com/downloads/citrix-monitoring-observability/ | https://www.citrix.com/content/citrix/en_us/downloads/citrix-monitoring-observability.rss | ok 2026-08-15 |
+| Citrix SD-WAN | `citrix-sd-wan` | https://www.citrix.com/downloads/citrix-sd-wan/ | https://www.citrix.com/content/citrix/en_us/downloads/citrix-sd-wan.rss | ok 2026-08-15 |
+| Citrix Secure Access | `citrix-secure-access` | https://www.citrix.com/downloads/citrix-secure-access/ | https://www.citrix.com/content/citrix/en_us/downloads/citrix-secure-access.rss | ok 2026-08-15 |
+| Citrix Secure Private Access | `citrix-secure-private-access` | https://www.citrix.com/downloads/citrix-secure-private-access/ | https://www.citrix.com/content/citrix/en_us/downloads/citrix-secure-private-access.rss | ok 2026-08-15 |
+| Citrix Session Remote Start | `citrix-session-remote-start` | https://www.citrix.com/downloads/citrix-session-remote-start/ | https://www.citrix.com/content/citrix/en_us/downloads/citrix-session-remote-start.rss | ok 2026-08-15 |
+| Citrix Virtual Apps and Desktops | `citrix-virtual-apps-and-desktops` | https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/ | https://www.citrix.com/content/citrix/en_us/downloads/citrix-virtual-apps-and-desktops.rss | ok 2026-08-15 |
+| Citrix Workspace app | `workspace-app` | https://www.citrix.com/downloads/workspace-app/ | https://www.citrix.com/content/citrix/en_us/downloads/workspace-app.rss | ok 2026-08-15 |
+| NetScaler | `citrix-adc` | https://www.citrix.com/downloads/citrix-adc/ | https://www.citrix.com/content/citrix/en_us/downloads/citrix-adc.rss | ok 2026-08-15 |
+| NetScaler Console | `citrix-application-management` | https://www.citrix.com/downloads/citrix-application-management/ | https://www.citrix.com/content/citrix/en_us/downloads/citrix-application-management.rss | ok 2026-08-15 |
+| StoreFront | `storefront` | https://www.citrix.com/downloads/storefront/ | https://www.citrix.com/content/citrix/en_us/downloads/storefront.rss | ok 2026-08-15 |
+| StoreFront Cloud | `citrix-workspace` | https://www.citrix.com/downloads/citrix-workspace/ | https://www.citrix.com/content/citrix/en_us/downloads/citrix-workspace.rss | ok 2026-08-15 |
+| Tools and Utilities | `citrix-tools` | https://www.citrix.com/downloads/citrix-tools/ | https://www.citrix.com/content/citrix/en_us/downloads/citrix-tools.rss | ok 2026-08-15 |
+| Unicon eLux Scout | `Elux-Download-Pages` | https://www.citrix.com/downloads/Elux-Download-Pages/ | https://www.citrix.com/content/citrix/en_us/downloads/Elux-Download-Pages.rss | ok 2026-08-15 |
 | XenServer | `xenserver` | https://www.xenserver.com/downloads | **none — parse the download page** | n/a |
 
 ## Additional products
@@ -40,10 +40,10 @@ Reachable via "View additional downloads" rather than the select box. Not covere
 
 | Product | Value | Download page | RSS feed | Feed status |
 | --- | --- | --- | --- | --- |
-| Citrix App Layering | `citrix-app-layering` | https://www.citrix.com/downloads/citrix-app-layering/ | https://www.citrix.com/content/citrix/en_us/downloads/citrix-app-layering.rss | ok 2026-08-14 |
-| Citrix Licensing | `licensing` | https://www.citrix.com/downloads/licensing/ | https://www.citrix.com/content/citrix/en_us/downloads/licensing.rss | ok 2026-08-14 |
-| Citrix Provisioning Services | `provisioning-services` | https://www.citrix.com/downloads/provisioning-services/ | https://www.citrix.com/content/citrix/en_us/downloads/provisioning-services.rss | ok 2026-08-14 |
-| Citrix FAS | `federated-authentication-service` | https://www.citrix.com/downloads/federated-authentication-service/ | https://www.citrix.com/content/citrix/en_us/downloads/federated-authentication-service.rss | ok 2026-08-14 |
+| Citrix App Layering | `citrix-app-layering` | https://www.citrix.com/downloads/citrix-app-layering/ | https://www.citrix.com/content/citrix/en_us/downloads/citrix-app-layering.rss | ok 2026-08-15 |
+| Citrix Licensing | `licensing` | https://www.citrix.com/downloads/licensing/ | https://www.citrix.com/content/citrix/en_us/downloads/licensing.rss | ok 2026-08-15 |
+| Citrix Provisioning Services | `provisioning-services` | https://www.citrix.com/downloads/provisioning-services/ | https://www.citrix.com/content/citrix/en_us/downloads/provisioning-services.rss | ok 2026-08-15 |
+| Citrix FAS | `federated-authentication-service` | https://www.citrix.com/downloads/federated-authentication-service/ | https://www.citrix.com/content/citrix/en_us/downloads/federated-authentication-service.rss | ok 2026-08-15 |
 
 ## Community feeds
 

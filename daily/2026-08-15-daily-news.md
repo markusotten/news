@@ -23,6 +23,6 @@ None.
 
 <sub>
 Window: 2026-08-14T08:24:25Z → 2026-08-15T02:09:44Z · Last successful run: 2026-08-14T08:24:25Z<br>
-Phases run: security<br>
+Phases run: security, downloads<br>
 Open defects: 2 — see <code>.skill-bugs.md</code>
 </sub>
