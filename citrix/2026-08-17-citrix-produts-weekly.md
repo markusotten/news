@@ -32,7 +32,7 @@ None.
 
 ## Community
 
-**2026-08-13 / 2026-08-14 / 2026-08-15**
+**2026-08-13 / 2026-08-14 / 2026-08-15 / 2026-08-16**
 
 **XenServer 9 Deep Dive Webinar.** Citrix's Tech Zone community events calendar lists a "Deep Dive Webinar Series - Inside Citrix XenServer 9: Updates, strategy, and roadmap," presented by the XenServer Product Management team (Jose Augustin and Marshall Wu), covering security, streamed updates, performance and migration considerations for XenServer 9. Thursday, 2026-08-20, 15:00 UTC, online. https://community.citrix.com/events/event/151-deep-dive-webinar-series-inside-citrix-xenserver-9-updates-strategy-and-roadmap/
 
@@ -79,7 +79,7 @@ Citrix's AI assistant, Aidrien, is now reachable directly from both Web Studio (
 ## Metadata
 
 <sub>
-Covering dailies 2026-08-10 → 2026-08-16 · Generated 2026-08-15<br>
+Covering dailies 2026-08-10 → 2026-08-16 · Generated 2026-08-16<br>
 Phases run: security, downloads, catalog, whatsnew, press, community, weekly<br>
-Open defects: 0 — see <code>.skill-bugs.md</code>
+Open defects: 1 — see <code>.skill-bugs.md</code>
 </sub>
