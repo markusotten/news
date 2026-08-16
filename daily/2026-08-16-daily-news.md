@@ -7,8 +7,6 @@
 
 None.
 
-### Products
-
 ### Press
 
 ### Community
