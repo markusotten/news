@@ -68,3 +68,4 @@ The **What's New URL** column is read by Phase 4 so it never has to rediscover a
 | XenMobile (legacy) | https://docs.citrix.com/en-us/xenmobile | https://docs.citrix.com/en-us/xenmobile/server/whats-new |
 | XenServer 8.4 | https://docs.xenserver.com/en-us/xenserver/8 | https://docs.xenserver.com/en-us/xenserver/8/whats-new.html |
 | XenServer 9 | https://docs.xenserver.com/en-us/xenserver/9 | https://docs.xenserver.com/en-us/xenserver/9/whats-new.html |
+| XenServer SDK | https://docs.xenserver.com/en-us/xenserver/developer | none |
