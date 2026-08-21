@@ -39,6 +39,14 @@
 
 ### Community
 
+**CVAD 2607 LTSR: What's worth your attention in this release.** A Tech Zone blog walks admins through the operationally significant parts of CVAD 2607 LTSR beyond the headline features: a new Service Window lets teams schedule OS disk resets, hardware changes, AD account repair, and Entra Hybrid Join conversion through Web Studio or PowerShell on a controlled schedule; existing AD-joined MCS catalogs can now convert to Entra Hybrid Join in place, for both persistent and non-persistent VMs, without a rebuild; and Citrix Director gains real-time machine diagnostic insights (refreshed every 15 minutes) integrated with Always On Tracing across Windows, Mac and Linux VDAs plus FAS and Session Recording. (2026-08-20, [Tech Zone](https://community.citrix.com/techzone-blogs/app-and-desktop-virtualization/2607-ltsr-tech/))
+
+**Indicators of Compromise detection in NetScaler Console: Did they get in?** A Tech Zone blog explains NetScaler Console's IoC detection capability, which is aimed at the harder follow-up question after a critical CVE ships: not just "are we vulnerable" but "were we compromised before we patched." It frames the feature as reducing the manual log-collection and artifact review that answering that question has historically required. (2026-08-20, [Tech Zone](https://community.citrix.com/techzone-blogs/netscaler/indicators-of-compromise-detection-in-netscaler-console-did-they-get-in-r1604/))
+
+**Why clinician logon feels slow, and how to get it under 5 seconds.** A Tech Zone blog previews a new configuration guide, *Optimizing EHR Logon with Citrix*, arguing that slow EHR access in healthcare is usually a Windows logon and session-initialization problem — profile loading, Group Policy processing, logon scripts — rather than a fault of the EHR application itself, and breaks the logon path into five measurable phases that can each be shortened. (2026-08-20, [Tech Zone](https://community.citrix.com/techzone-blogs/app-and-desktop-virtualization/optimizing-ehr-logon/))
+
+**Citrix SecurAccess ZTNA: Security in your control.** New video on the Citrix YouTube channel covering Citrix SecurAccess's zero-trust network access approach. (2026-08-19, [YouTube](https://www.youtube.com/watch?v=A1NDWNK2O58))
+
 ---
 
 ## Metadata
