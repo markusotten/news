@@ -29,6 +29,10 @@
 
 **Unicon eLux Scout software packages — LTSR and CR.** New UniconOS (eLux) software package releases for both the LTSR and Current Release (CR) branches. (2026-08-19 LTSR / 2026-08-18 CR, [LTSR packages](http://www.citrix.com/downloads/Elux-Download-Pages/Elux-Software-Packages/eLux-Software-Packages-LTSR.html), [CR packages](http://www.citrix.com/downloads/Elux-Download-Pages/Elux-Software-Packages/eLux-Software-Packages-CR.html))
 
+#### Changes
+
+- **Added:** "Citrix Always On Tracing" (AOT), a diagnostic framework that continuously captures Citrix Diagnostic Facility (CDF) traces and other component logs across a Citrix Virtual Apps and Desktops environment for troubleshooting common failures — a peer navigation entry on the docs.citrix.com landing page, previously untracked. It has no what's-new page. https://docs.citrix.com/en-us/citrix-always-on-tracing
+
 ### Community
 
 ---

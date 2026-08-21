@@ -8,6 +8,7 @@ The **What's New URL** column is read by Phase 4 so it never has to rediscover a
 | --- | --- | --- |
 | Citrix Adaptive Authentication Service | https://docs.citrix.com/en-us/adaptive-authentication | none |
 | Citrix Aidrien | https://docs.citrix.com/en-us/citrix-aidrien | https://docs.citrix.com/en-us/citrix-aidrien/whats-new.html |
+| Citrix Always On Tracing | https://docs.citrix.com/en-us/citrix-always-on-tracing | none |
 | Citrix Analytics | https://docs.citrix.com/en-us/citrix-analytics | https://docs.citrix.com/en-us/citrix-analytics/whats-new.html |
 | Citrix App Layering | https://docs.citrix.com/en-us/citrix-app-layering | unverified: https://docs.citrix.com/en-us/citrix-app-layering/4.html |
 | Citrix Cloud | https://docs.citrix.com/en-us/citrix-cloud | https://docs.citrix.com/en-us/citrix-cloud/whats-new.html |
