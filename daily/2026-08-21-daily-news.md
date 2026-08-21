@@ -33,6 +33,10 @@
 
 - **Added:** "Citrix Always On Tracing" (AOT), a diagnostic framework that continuously captures Citrix Diagnostic Facility (CDF) traces and other component logs across a Citrix Virtual Apps and Desktops environment for troubleshooting common failures — a peer navigation entry on the docs.citrix.com landing page, previously untracked. It has no what's-new page. https://docs.citrix.com/en-us/citrix-always-on-tracing
 
+### Press
+
+**Citrix Virtual Apps and Desktops 2607 LTSR: Why standing still costs more than upgrading.** Shawn Bass previews the CVAD 2607 LTSR release (see Downloads above), citing internal testing showing roughly a 14% reduction in bandwidth consumption versus the prior version, Azure VM cost estimation built into provisioning workflows, AI-assisted analysis that surfaces security findings from session recordings automatically, faster logons via enhanced Workspace Environment Management, and HDX graphics super resolution offloaded to endpoint GPUs instead of server resources. (2026-08-19, [Citrix Blog](https://www.citrix.com/blogs/2026/08/19/citrix-virtual-apps-and-desktops-2607-ltsr/))
+
 ### Community
 
 ---
