@@ -100,7 +100,7 @@ Alongside adding an IGEL OS 12 app for Linux endpoints (deployable via the IGEL 
 ## Metadata
 
 <sub>
-Covering dailies 2026-08-17 → 2026-08-21 · Generated 2026-08-21<br>
+Covering dailies 2026-08-17 → 2026-08-22 · Generated 2026-08-22<br>
 Phases run: security, downloads, catalog, whatsnew, press, community, weekly<br>
-Open defects: 0 — see <code>.skill-bugs.md</code>
+Open defects: 1 — see <code>.skill-bugs.md</code>
 </sub>

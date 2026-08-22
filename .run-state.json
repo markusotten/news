@@ -1,9 +1,5 @@
 {
-  "last_successful_run": "2026-08-21T02:10:02Z",
+  "last_successful_run": "2026-08-22T02:20:28Z",
   "phases_run": ["security", "downloads", "catalog", "whatsnew", "press", "community", "weekly"],
-  "in_progress": {
-    "run_date": "2026-08-22",
-    "window_start": "2026-08-21T02:10:02Z",
-    "completed_phases": ["security", "downloads", "catalog", "whatsnew", "press", "community"]
-  }
+  "in_progress": null
 }
