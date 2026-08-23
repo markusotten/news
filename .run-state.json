@@ -1,5 +1,10 @@
 {
   "last_successful_run": "2026-08-22T02:20:28Z",
   "phases_run": ["security", "downloads", "catalog", "whatsnew", "press", "community", "weekly"],
-  "in_progress": null
+  "in_progress": {
+    "date": "2026-08-23",
+    "completed_phases": ["security"],
+    "feeds_done": [],
+    "whatsnew_done": []
+  }
 }
