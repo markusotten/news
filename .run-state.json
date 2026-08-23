@@ -3,7 +3,7 @@
   "phases_run": ["security", "downloads", "catalog", "whatsnew", "press", "community", "weekly"],
   "in_progress": {
     "date": "2026-08-23",
-    "completed_phases": ["security"],
+    "completed_phases": ["security", "downloads"],
     "feeds_done": [],
     "whatsnew_done": []
   }
