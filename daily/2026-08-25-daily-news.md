@@ -27,6 +27,6 @@ Added **NetScaler Automation Toolkit** to the product catalog — a new tile on 
 
 <sub>
 Window: 2026-08-23T02:11:28Z → 2026-08-25T02:07:31Z · Last successful run: 2026-08-23T02:11:28Z<br>
-Phases run: security, downloads, catalog<br>
-Open defects: 1 — see <code>.skill-bugs.md</code>
+Phases run: security, downloads, catalog, whatsnew<br>
+Open defects: 2 — see <code>.skill-bugs.md</code>
 </sub>
