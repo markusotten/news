@@ -17,12 +17,16 @@ None.
 
 **Citrix Workspace app 2603.50 for ChromeOS SDK.** New ChromeOS SDK build accompanying the 2603.50 ChromeOS client release. (2026-08-24, [Download](http://www.citrix.com/downloads/workspace-app/chrome/workspace-app-for-chrome-sdk-latest.html))
 
+#### Changes
+
+Added **NetScaler Automation Toolkit** to the product catalog — a new tile on the docs.netscaler.com landing page unifying APIs, IaC templates, SDKs and AI integrations for Day 0–N automation; its documentation lives on GitHub rather than docs.netscaler.com. ([docs.netscaler.com](https://docs.netscaler.com/), [GitHub](https://github.com/netscaler/automation-toolkit))
+
 ---
 
 ## Metadata
 
 <sub>
 Window: 2026-08-23T02:11:28Z → 2026-08-25T02:07:31Z · Last successful run: 2026-08-23T02:11:28Z<br>
-Phases run: security, downloads<br>
+Phases run: security, downloads, catalog<br>
 Open defects: 1 — see <code>.skill-bugs.md</code>
 </sub>
