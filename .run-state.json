@@ -15,7 +15,8 @@
     "window_end": "2026-08-26T02:07:44Z",
     "completed_phases": [
       "security",
-      "downloads"
+      "downloads",
+      "catalog"
     ],
     "feeds_done": [],
     "whatsnew_done": []
