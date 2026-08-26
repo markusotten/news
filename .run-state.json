@@ -9,5 +9,15 @@
     "community",
     "weekly"
   ],
-  "in_progress": null
+  "in_progress": {
+    "date": "2026-08-26",
+    "window_start": "2026-08-25T02:07:31Z",
+    "window_end": "2026-08-26T02:07:44Z",
+    "completed_phases": [
+      "security",
+      "downloads"
+    ],
+    "feeds_done": [],
+    "whatsnew_done": []
+  }
 }
