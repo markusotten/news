@@ -59,7 +59,7 @@ Added **NetScaler Automation Toolkit** to the product catalog — a new tile on 
 ## Metadata
 
 <sub>
-Covering dailies 2026-08-25 → 2026-08-26 · Generated 2026-08-26<br>
-Phases run: security, downloads, catalog, whatsnew, press, community<br>
-Open defects: 3 — see <code>.skill-bugs.md</code>
+Covering dailies 2026-08-25 → 2026-08-27 · Generated 2026-08-27<br>
+Phases run: security, downloads, catalog, whatsnew, press, community, weekly<br>
+Open defects: 4 — see <code>.skill-bugs.md</code>
 </sub>
