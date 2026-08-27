@@ -7,16 +7,6 @@
 
 None.
 
-### Products
-
-#### Releases
-
-#### Changes
-
-### Press
-
-### Community
-
 ---
 
 ## Metadata
