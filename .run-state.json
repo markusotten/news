@@ -11,8 +11,8 @@
   ],
   "in_progress": {
     "date": "2026-08-27",
-    "completed_phases": ["security", "downloads", "catalog"],
+    "completed_phases": ["security", "downloads", "catalog", "whatsnew"],
     "feeds_done": [],
-    "whatsnew_done": []
+    "whatsnew_done": ["all"]
   }
 }
