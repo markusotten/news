@@ -11,7 +11,7 @@
   ],
   "in_progress": {
     "date": "2026-08-28",
-    "completed_phases": ["security", "downloads", "catalog"],
+    "completed_phases": ["security", "downloads", "catalog", "whatsnew"],
     "feeds_done": [
       "citrix-analytics", "citrix-early-access-release", "citrix-endpoint-analysis",
       "citrix-endpoint-management", "citrix-enterprise-browser", "citrix-gateway",
@@ -22,6 +22,6 @@
       "citrix-tools", "Elux-Download-Pages", "citrix-app-layering", "licensing",
       "provisioning-services", "federated-authentication-service", "xenserver"
     ],
-    "whatsnew_done": []
+    "whatsnew_done": "all 47 fetchable products"
   }
 }
