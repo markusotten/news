@@ -37,6 +37,7 @@ The **What's New URL** column is read by Phase 4 so it never has to rediscover a
 | NetScaler (ADC) | https://docs.netscaler.com/en-us/citrix-adc | https://docs.netscaler.com/en-us/citrix-adc#whats-new |
 | NetScaler Automation Toolkit | https://github.com/netscaler/automation-toolkit | none |
 | NetScaler Console | https://docs.netscaler.com/en-us/netscaler-application-delivery-management-software | https://docs.netscaler.com/en-us/netscaler-application-delivery-management-software#whats-new |
+| NetScaler Hardware Platforms | https://docs.netscaler.com/en-us/netscaler-hardware-platforms | none |
 | NetScaler Console Service | https://docs.netscaler.com/en-us/netscaler-console-service/ | https://docs.netscaler.com/en-us/netscaler-console-service/#whats-new |
 | NetScaler Gateway | https://docs.netscaler.com/en-us/netscaler-gateway | https://docs.netscaler.com/en-us/netscaler-gateway#whats-new |
 | NetScaler SDX | https://docs.netscaler.com/en-us/sdx | https://docs.netscaler.com/en-us/sdx#whats-new |
