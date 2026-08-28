@@ -13,6 +13,12 @@
 
 **NetScaler Hardware Platforms added to the catalog.** A standalone docs.netscaler.com doc-set covering NetScaler MPX/SDX physical appliance hardware, distinct from the NetScaler (ADC) software product already tracked. It carries no What's New page. ([docs.netscaler.com](https://docs.netscaler.com/en-us/netscaler-hardware-platforms))
 
+### Community
+
+**How Do I: Automate the deployment of TLS certificates on NetScaler?** A Tech Zone how-to on Zero Touch Certificate deployment, covering why shrinking certificate lifetimes (398 days today, heading to 47 by 2029) make manual create/chain/bind/verify rotation on every NetScaler appliance unsustainable, and how to automate the sequence instead of discovering a missed renewal as a failed handshake in production. (2026-08-27, [Tech Zone](https://community.citrix.com/techzone-blogs/netscaler/how-do-i-automate-the-deployment-of-tls-certificates-on-netscaler-r1605/))
+
+**How St. Luke's University Health Network accelerates patient care with Citrix.** A customer-story video on how the healthcare network uses Citrix to speed clinician access to patient information. (2026-08-27, [YouTube — Citrix](https://www.youtube.com/watch?v=jen6T1Ax_JA))
+
 ---
 
 ## Metadata
