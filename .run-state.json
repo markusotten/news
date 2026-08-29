@@ -9,5 +9,11 @@
     "community",
     "weekly"
   ],
-  "in_progress": null
+  "in_progress": {
+    "date": "2026-08-29",
+    "completed_phases": [
+      "security",
+      "downloads"
+    ]
+  }
 }
