@@ -14,7 +14,8 @@
     "completed_phases": [
       "security",
       "downloads",
-      "catalog"
+      "catalog",
+      "whatsnew"
     ]
   }
 }
