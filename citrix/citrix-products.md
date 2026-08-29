@@ -40,6 +40,7 @@ The **What's New URL** column is read by Phase 4 so it never has to rediscover a
 | NetScaler Hardware Platforms | https://docs.netscaler.com/en-us/netscaler-hardware-platforms | none |
 | NetScaler Console Service | https://docs.netscaler.com/en-us/netscaler-console-service/ | https://docs.netscaler.com/en-us/netscaler-console-service/#whats-new |
 | NetScaler Gateway | https://docs.netscaler.com/en-us/netscaler-gateway | https://docs.netscaler.com/en-us/netscaler-gateway#whats-new |
+| NetScaler Observability Exporter | https://docs.netscaler.com/en-us/netscaler-observability-exporter | none |
 | NetScaler SDX | https://docs.netscaler.com/en-us/sdx | https://docs.netscaler.com/en-us/sdx#whats-new |
 | Profile Management | https://docs.citrix.com/en-us/profile-management | https://docs.citrix.com/en-us/profile-management/current-release/whats-new.html |
 | Citrix Provisioning | https://docs.citrix.com/en-us/provisioning | https://docs.citrix.com/en-us/provisioning/current-release/whats-new.html |
