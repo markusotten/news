@@ -27,6 +27,12 @@
 
 **Citrix Workspace app - ChromeOS and HTML5 2603.** Adds keyboard input mode refinement, audio quality improvements with reliable transport protocols, and AOT log content enhancements shared across both clients; the ChromeOS build also gains Service Continuity for connectorless workloads and a loss-tolerant graphics mode, while the HTML5 build adds support for single-tenant Microsoft Entra ID. (2026-08-25, [What's New](https://docs.citrix.com/en-us/citrix-workspace-app/whats-new.html))
 
+**2026-08-29**
+
+**Citrix Endpoint Analysis — EPA Client for Windows 26.7.1.15.** Updated 64-bit EPA client used to run endpoint posture checks before granting NetScaler Gateway access. (2026-08-28, [download](https://www.citrix.com/downloads/citrix-endpoint-analysis/plug-ins/EPA-clients-for-Windows.html))
+
+**Citrix Endpoint Analysis — EPA Client for Linux 26.8.2.** Updated EPA client for Ubuntu 22/24/26, compatible with Citrix ADC 12.1, 13.0, 13.1 and 14.1 and with Citrix Device Posture Service. (2026-08-28, [download](https://www.citrix.com/downloads/citrix-endpoint-analysis/plug-ins/EPA-Clients-Linux.html))
+
 ### Changes
 
 **2026-08-25**
@@ -36,6 +42,10 @@ Added **NetScaler Automation Toolkit** to the product catalog — a new tile on 
 **2026-08-28**
 
 Added **NetScaler Hardware Platforms** to the product catalog — a standalone docs.netscaler.com doc-set covering NetScaler MPX/SDX physical appliance hardware, distinct from the NetScaler (ADC) software product already tracked. It carries no What's New page. ([docs.netscaler.com](https://docs.netscaler.com/en-us/netscaler-hardware-platforms))
+
+**2026-08-29**
+
+**NetScaler Observability Exporter added to the catalog.** A docs.netscaler.com doc-set (redirected from the older `citrix-observability-exporter` slug) covering the standalone telemetry-export tool for NetScaler traffic data, distinct from the general "Citrix Observability" downloads product. It publishes release notes rather than a What's New page. ([docs.netscaler.com](https://docs.netscaler.com/en-us/netscaler-observability-exporter))
 
 ## Press
 
@@ -55,6 +65,12 @@ Added **NetScaler Hardware Platforms** to the product catalog — a standalone d
 
 **How St. Luke's University Health Network accelerates patient care with Citrix.** A customer-story video on how the healthcare network uses Citrix to speed clinician access to patient information. (2026-08-27, [YouTube — Citrix](https://www.youtube.com/watch?v=jen6T1Ax_JA))
 
+**2026-08-29**
+
+**Bringing AI-Assisted Operations to the ADC: Introducing the NetScaler MCP Server.** A Tech Zone blog post announcing an MCP (Model Context Protocol) server for NetScaler, letting AI assistants participate in day-to-day ADC operations — troubleshooting, configuration lookups and similar tasks — instead of admins working the CLI/GUI alone. (2026-08-28, [Tech Zone](https://community.citrix.com/techzone-blogs/netscaler/netscaler-mcp-server-introduction/))
+
+**Citrix UniconOS dual boot: When Windows fails, work doesn't have to.** A video walkthrough of UniconOS's dual-boot recovery capability, showing how a failed Windows endpoint can fail over to a working boot environment so end users stay productive instead of waiting on a rebuild. (2026-08-28, [YouTube — Citrix](https://www.youtube.com/watch?v=rbTsmYZ17lI))
+
 ## Deep Dives
 
 **Citrix UniconOS Dual Boot.** A new endpoint-resiliency capability in UniconOS Release 7 2607 that installs a second, hardened UniconOS environment side-by-side with the primary Windows installation on a compatible endpoint. The two operating environments are isolated from one another via Secure Boot, and the UniconOS side is independent of the Windows filesystem, so corruption, ransomware, or a bad patch affecting Windows cannot touch it. When Windows becomes unavailable, a user selects UniconOS from the boot menu, signs in, and reconnects to their applications through Citrix DaaS and Citrix Secure Access with Chrome Enterprise — all from the same physical device, within minutes.
@@ -71,7 +87,7 @@ Added **NetScaler Hardware Platforms** to the product catalog — a standalone d
 ## Metadata
 
 <sub>
-Covering dailies 2026-08-25 → 2026-08-28 · Generated 2026-08-28<br>
+Covering dailies 2026-08-25 → 2026-08-29 · Generated 2026-08-29<br>
 Phases run: security, downloads, catalog, whatsnew, press, community, weekly<br>
 Open defects: 4 — see <code>.skill-bugs.md</code>
 </sub>
