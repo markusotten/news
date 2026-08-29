@@ -23,12 +23,16 @@ None.
 
 ### Community
 
+**Bringing AI-Assisted Operations to the ADC: Introducing the NetScaler MCP Server.** A Tech Zone blog post announcing an MCP (Model Context Protocol) server for NetScaler, letting AI assistants participate in day-to-day ADC operations — troubleshooting, configuration lookups and similar tasks — instead of admins working the CLI/GUI alone. (2026-08-28, [Tech Zone](https://community.citrix.com/techzone-blogs/netscaler/netscaler-mcp-server-introduction/))
+
+**Citrix UniconOS dual boot: When Windows fails, work doesn't have to.** A video walkthrough of UniconOS's dual-boot recovery capability, showing how a failed Windows endpoint can fail over to a working boot environment so end users stay productive instead of waiting on a rebuild. (2026-08-28, [YouTube — Citrix](https://www.youtube.com/watch?v=rbTsmYZ17lI))
+
 ---
 
 ## Metadata
 
 <sub>
 Window: 2026-08-28T02:19:00Z → 2026-08-29T02:07:20Z · Last successful run: 2026-08-28T02:19:00Z<br>
-Phases run: security, downloads, catalog, whatsnew, press<br>
+Phases run: security, downloads, catalog, whatsnew, press, community<br>
 Open defects: 4 — see <code>.skill-bugs.md</code>
 </sub>
