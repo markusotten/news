@@ -4,9 +4,14 @@ Cumulative list of every security bulletin currently listed on Citrix's public t
 
 **Coverage note:** the source page is a "trending" widget with no pagination, currently showing 34 entries reaching back to October 2023 (CVE-2023-4966, "Citrix Bleed" — likely kept listed indefinitely given its significance). It is **not a full historical archive** of every Citrix bulletin ever published, just Citrix's own current/relevant selection.
 
-As of: 2026-08-14.
+As of: 2026-08-14, plus bulletins added incrementally by the daily skill run as found in each run's window (most recently 2026-08-30). Not a fresh full re-scrape of the trending page on every run.
 
 ---
+
+### NetScaler ADC and NetScaler Gateway Security Bulletin for CVE-2026-19489 and CVE-2026-19490
+2026-08-19 · Critical · [CTX696939](https://support.citrix.com/external/article/CTX696939/netscaler-adc-and-netscaler-gateway-secu.html)
+
+Two vulnerabilities affect NetScaler ADC and Gateway. CVE-2026-19490 is a critical authentication-bypass-using-an-alternate-path flaw letting an unauthenticated remote attacker reach authenticated functionality without valid credentials, on appliances configured as a Gateway (SSL VPN/ICA Proxy/CVPN/RDP Proxy) or AAA virtual server; exact exposure depends on firmware branch/build and, on newer builds, whether a SAML action is configured. CVE-2026-19489 is a memory-overflow bug causing unpredictable behavior or denial-of-service, but only when SIP ALG is enabled on a Large Scale NAT (LSN) group. No exploitation had been reported as of this bulletin.
 
 ### XenServer Security Update for Multiple Issues
 2026-07-28 · High · [CTX696836](https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX696836)
@@ -22,6 +27,11 @@ Two flaws affect the Windows builds of Citrix Secure Access Client and the Endpo
 2026-07-10 · Medium · [CTX696811](https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX696811)
 
 A flaw in the XenServer management API SDK lets an attacker on the management network who can intercept specific HTTPS requests within a higher-level operation act with the intercepted administrator's privileges. It affects the XenCenter management agent and third-party PowerShell/C# SDK clients, independent of the XenServer host version.
+
+### NetScaler ADC and NetScaler Gateway Security Bulletin for CVE-2026-8451, CVE-2026-8452, CVE-2026-8655, CVE-2026-10816, CVE-2026-10817 and CVE-2026-13474
+2026-06-30 · High (CVSS up to 8.8) · [CTX696604](https://support.citrix.com/external/article/CTX696604/netscaler-adc-and-netscaler-gateway-secu.html)
+
+Six vulnerabilities affect NetScaler ADC and Gateway across several configurations: CVE-2026-8451, an insufficient-input-validation memory overread when configured as a SAML IdP; CVE-2026-8452, a memory-overflow bug Citrix originally classified as denial-of-service on Gateway/AAA-configured virtual servers; CVE-2026-8655, multiple memory-overflow issues on an Oracle-type load balancer, DNS proxy, or DNS recursive-resolver deployment; CVE-2026-10816, an externally-controlled filename/path issue enabling unauthenticated arbitrary file read; plus CVE-2026-10817 and CVE-2026-13474. **Update (2026-08-27, reported in the 2026-08-28 daily note):** watchTowr Labs published a technical write-up and working proof-of-concept on 2026-08-14 showing CVE-2026-8452 chains into full unauthenticated remote code execution as root, a materially worse outcome than Citrix's original DoS classification — active exploitation (PHP web shells, recon commands) was confirmed shortly after, and CISA added it to its KEV catalog with a 2026-08-29 federal remediation deadline. Fixed in 13.1-63.18/13.1-37.272 and 14.1-72.61 or later; no workaround.
 
 ### XenServer Security Update for Multiple Issues
 2026-04-28 · High · [CTX696527](https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX696527)
