@@ -87,7 +87,7 @@ Added **NetScaler Hardware Platforms** to the product catalog — a standalone d
 ## Metadata
 
 <sub>
-Covering dailies 2026-08-25 → 2026-08-29 · Generated 2026-08-29<br>
+Covering dailies 2026-08-25 → 2026-08-30 (2026-08-24 has no <code>daily/</code> note — see <code>missing-daily-note-2026-08-24</code> in <code>.skill-bugs.md</code>) · Generated 2026-08-30<br>
 Phases run: security, downloads, catalog, whatsnew, press, community, weekly<br>
 Open defects: 4 — see <code>.skill-bugs.md</code>
 </sub>

@@ -1,5 +1,5 @@
 {
-  "last_successful_run": "2026-08-29T02:07:20Z",
+  "last_successful_run": "2026-08-30T02:08:55Z",
   "phases_run": [
     "security",
     "downloads",
@@ -9,5 +9,5 @@
     "community",
     "weekly"
   ],
-  "in_progress": "community"
+  "in_progress": null
 }
