@@ -25,6 +25,10 @@ None.
 
 **Citrix Virtual Delivery Agent for macOS 2607.** New macOS VDA release, version 2607, published under Citrix Virtual Apps and Desktops. (2026-09-03, http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/components/mac-vda-2607.html)
 
+### Press
+
+**Citrix acquires Numecent to simplify and broaden application management and delivery capabilities across Windows environments.** Citrix, a Cloud Software Group company, completed its acquisition of Numecent, maker of Cloudpaging (application containerization for Windows apps, independent of the OS image) and Cloudpager (a cloud console to provision, update, roll back and meter those containers across physical and virtual Windows endpoints). The deal extends Citrix DaaS application-delivery capabilities beyond virtual desktops to physical Windows endpoints, building on an integration launched in April that let admins publish Cloudpaging containers through Citrix workflows; Citrix positions it as cutting image-management overhead and speeding recovery from ransomware or image failures. (2026-09-01, by Sridhar Mullapudi, Co-President of Citrix, https://www.citrix.com/news/announcements/sep-2026/citrix-acquires-numecent-to-simplify-and-broaden-application-management-and-delivery-capabilities-across-windows-environments.html; companion post: https://www.citrix.com/blogs/2026/09/01/citrix-acquires-numecent/)
+
 ---
 
 ## Metadata
