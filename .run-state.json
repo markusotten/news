@@ -11,7 +11,11 @@
   ],
   "in_progress": {
     "date": "2026-09-03",
-    "completed_phases": ["security", "downloads"],
+    "completed_phases": [
+      "security",
+      "downloads",
+      "catalog"
+    ],
     "feeds_done": [],
     "whatsnew_done": []
   }
