@@ -23,6 +23,20 @@ None.
 
 **Citrix Virtual Delivery Agent for macOS 2607.** New macOS VDA release, version 2607, published under Citrix Virtual Apps and Desktops. (2026-09-03, http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/components/mac-vda-2607.html)
 
+**2026-09-04**
+
+**NetScaler Release (Maintenance Phase) 13.1 Build 64.22.** New maintenance-phase firmware build for NetScaler ADC. (2026-09-03, http://www.citrix.com/downloads/citrix-adc/firmware/release-13-1-build-64-22.html)
+
+**NetScaler VPX Release (Maintenance Phase) 13.1 Build 64.22.** Matching virtual-appliance build for the same 13.1 maintenance release. (2026-09-03, http://www.citrix.com/downloads/citrix-adc/virtual-appliances/vpx-release-13-1-64-22.html)
+
+**NetScaler CPX Release (Maintenance Phase) 13.1 Build 64.22.** Matching container-based NetScaler build for the same 13.1 maintenance release. (2026-09-03, http://www.citrix.com/downloads/citrix-adc/container-based-adc/cpx-13-1-64-22.html)
+
+**NetScaler SDX Bundle (Maintenance Phase) 13.1-64.22.** Matching SDX service-delivery-appliance bundle for the same 13.1 maintenance release. (2026-09-03, http://www.citrix.com/downloads/citrix-adc/service-delivery-appliances/sdx-bundle-13-1-64-22.html)
+
+**NetScaler BLX image (Maintenance Phase) 13.1 Build 64.22.** Matching bare-metal NetScaler build for the same 13.1 maintenance release. (2026-09-03, http://www.citrix.com/downloads/citrix-adc/bare-metal-adc/blx-13-1-64-22.html)
+
+**Citrix Gateway (Maintenance Phase) 13.1 Build 64.22.** Matching Citrix Gateway build released alongside the NetScaler 13.1 maintenance-phase set. (2026-09-03, http://www.citrix.com/downloads/citrix-gateway/product-software/citrix-gateway-13-1-build-64-22.html)
+
 ## Press
 
 **2026-09-03**
@@ -47,6 +61,8 @@ None.
 
 **Rethinking end-user computing (EUC) design.** A Citrix Tech Zone blog post argues that persona-based EUC design — matching Citrix delivery models (DaaS Cloud, DaaS Local, secure tunneling, etc.) to how specific user groups actually work rather than to assumptions made when an environment was first built — improves user experience and can cut unnecessary cloud and infrastructure spend as workloads drift from their original design. (2026-09-01, https://community.citrix.com/techzone-blogs/platform-services/rethinking-euc-design/)
 
+**2026-09-04**
+
 **Citrix Connect Pulse Sydney.** One-day customer event for infrastructure, cloud, security and end-user-computing teams, with keynotes, customer use cases and Birds-of-a-Feather sessions on modernizing, securing and optimizing Citrix environments. (2026-09-08, Sydney, https://community.citrix.com/events/event/150-citrix-connect-pulse-sydney/)
 
 **Citrix NetScaler AI Gateway + Protecto: Securing Enterprise LLM Traffic.** Webinar on using NetScaler AI Gateway together with Protecto to apply semantic-aware data protection to LLM traffic — user prompts, agent workflows and AI application calls — where regex- and firewall-based controls struggle to spot PII/PHI without breaking model context. (2026-09-08, online session, https://community.citrix.com/events/event/157-citrix-netscaler-ai-gateway-protecto-securing-enterprise-llm-traffic/)
@@ -58,7 +74,7 @@ None.
 ## Metadata
 
 <sub>
-Covering dailies 2026-08-31 → 2026-09-03 · Generated 2026-09-03<br>
+Covering dailies 2026-08-31 → 2026-09-04 · Generated 2026-09-04<br>
 Phases run: security, downloads, catalog, whatsnew, press, community, weekly<br>
-Open defects: 5 — see <code>.skill-bugs.md</code>
+Open defects: 4 — see <code>.skill-bugs.md</code>
 </sub>
