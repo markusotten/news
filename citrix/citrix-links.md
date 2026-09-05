@@ -54,8 +54,8 @@ Used by Phase 6 instead of parsing the community pages. These require `curl` —
 | Tech Zone articles (document history) | https://community.citrix.com/rss/1-citrix-tech-zone-document-history.xml/ | `community.citrix.com` | ok 2026-09-05 |
 | Tech Zone blogs | https://community.citrix.com/rss/3-citrix-tech-zone-blogs.xml/ | `community.citrix.com` | ok 2026-09-05 |
 | Community events | https://community.citrix.com/events/events.xml/ | `community.citrix.com` | ok 2026-09-05 |
-| YouTube — Citrix | https://www.youtube.com/feeds/videos.xml?channel_id=UCBnEJLbLEPoP_6lIZU5_qQA | `www.youtube.com` | ok 2026-09-05 |
-| YouTube — NetScaler | https://www.youtube.com/feeds/videos.xml?channel_id=UCT2QIrhHsy_NGC8yMnfQOEw | `www.youtube.com` | ok 2026-09-05 |
+| YouTube — Citrix | https://www.youtube.com/feeds/videos.xml?channel_id=UCBnEJLbLEPoP_6lIZU5_qQA | `www.youtube.com` | fail 2026-09-05 (404) |
+| YouTube — NetScaler | https://www.youtube.com/feeds/videos.xml?channel_id=UCT2QIrhHsy_NGC8yMnfQOEw | `www.youtube.com` | fail 2026-09-05 (404/500) |
 
 **Do not fall back to the community HTML pages.** `community.citrix.com/`, `/techzone-blogs/` and `/tech-zone-home/` sit behind a Cloudflare bot challenge and return 403 to both `curl` and `web_fetch`. Only the feed URLs above are usable; if one fails, record it and skip.
 
