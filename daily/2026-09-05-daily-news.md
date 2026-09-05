@@ -11,6 +11,8 @@
 
 #### Releases
 
+**Citrix Virtual Delivery Agent for macOS - VDA for macOS 2607 migrates to .NET 10 and adds Day-0 macOS 27 support.** The 2607 release moves the macOS VDA from .NET 8 to .NET 10, Microsoft's current LTS runtime; the Arm64 .NET 10 runtime must be installed on the Mac before installing or upgrading, and the installer now fails fast with an actionable message if it is missing. The release also adds TCP BBR support for improved throughput and latency handling, Apple Intelligence-based webcam frame interpolation/upscaling under constrained networks, Day-0 support for macOS 27, and Gateway information in Director for troubleshooting. (2026-09-04, [What's new](https://docs.citrix.com/en-us/mac-vda/whats-new.html), [Download](http://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/components/mac-vda-2607.html))
+
 ### Community
 
 ---
@@ -19,6 +21,6 @@
 
 <sub>
 Window: 2026-09-04T02:10:39Z → 2026-09-05T02:10:39Z · Last successful run: 2026-09-04T02:10:39Z<br>
-Phases run: security, downloads, catalog<br>
+Phases run: security, downloads, catalog, whatsnew<br>
 Open defects: 4 — see <code>.skill-bugs.md</code>
 </sub>
