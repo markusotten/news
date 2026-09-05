@@ -30,7 +30,7 @@
 ## Metadata
 
 <sub>
-Window: 2026-09-04T02:10:39Z → 2026-09-05T02:10:39Z · Last successful run: 2026-09-04T02:10:39Z<br>
+Window: 2026-09-04T02:10:39Z → 2026-09-05T02:08:12Z · Last successful run: 2026-09-04T02:10:39Z<br>
 Phases run: security, downloads, catalog, whatsnew, press, community<br>
 Open defects: 5 — see <code>.skill-bugs.md</code>
 </sub>
