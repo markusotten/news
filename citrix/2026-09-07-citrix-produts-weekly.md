@@ -1,6 +1,7 @@
 # Citrix Product Update - Weekly Rollup
 *Covering Monday 2026-08-31 to Sunday 2026-09-06*
 
+
 ## Security Bulletin
 
 **2026-09-05**
@@ -100,7 +101,7 @@ The macOS VDA's 2607 release rebases its managed runtime from .NET 8 to .NET 10,
 ## Metadata
 
 <sub>
-Covering dailies 2026-08-31 → 2026-09-05 · Generated 2026-09-05<br>
+Covering dailies 2026-08-31 → 2026-09-06 · Generated 2026-09-06<br>
 Phases run: security, downloads, catalog, whatsnew, press, community, weekly<br>
-Open defects: 5 — see <code>.skill-bugs.md</code>
+Open defects: 4 — see <code>.skill-bugs.md</code>
 </sub>
