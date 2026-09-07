@@ -1,13 +1,11 @@
-# Daily News
-*Covering Monday 2026-09-07*
+# Citrix Product Update - Weekly Rollup
+*Covering Monday 2026-09-07 to Sunday 2026-09-13*
 
-## Citrix
-
-### Security Bulletin
+## Security Bulletin
 
 None.
 
-### Community
+## Community
 
 **Citrix Connect Pulse Sydney.** One-day customer event for infrastructure, cloud, security and end-user-computing teams, with keynotes, customer use cases and Birds-of-a-Feather sessions on modernizing, securing and optimizing Citrix environments. (2026-09-08, Sydney, https://community.citrix.com/events/event/150-citrix-connect-pulse-sydney/)
 
@@ -20,7 +18,7 @@ None.
 ## Metadata
 
 <sub>
-Window: 2026-09-06T02:07:10Z → 2026-09-07T02:09:19Z · Last successful run: 2026-09-06T02:07:10Z<br>
+Covering dailies 2026-09-07 → 2026-09-07 · Generated 2026-09-07<br>
 Phases run: security, downloads, catalog, whatsnew, press, community, weekly<br>
 Open defects: 4 — see <code>.skill-bugs.md</code>
 </sub>
