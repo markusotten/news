@@ -7,18 +7,18 @@ None.
 
 ## Community
 
-**Citrix Connect Pulse Sydney.** One-day customer event for infrastructure, cloud, security and end-user-computing teams, with keynotes, customer use cases and Birds-of-a-Feather sessions on modernizing, securing and optimizing Citrix environments. (2026-09-08, Sydney, https://community.citrix.com/events/event/150-citrix-connect-pulse-sydney/)
+**Citrix Connect Pulse Sydney.** One-day customer event covering infrastructure, cloud, security and end-user-computing topics through keynotes, customer case studies and Birds-of-a-Feather discussions aimed at modernizing and securing Citrix environments. (2026-09-08, Sydney, https://community.citrix.com/events/event/150-citrix-connect-pulse-sydney/)
 
-**Citrix NetScaler AI Gateway + Protecto: Securing Enterprise LLM Traffic.** Webinar on using NetScaler AI Gateway together with Protecto to apply semantic-aware data protection to LLM traffic — user prompts, agent workflows and AI application calls — where regex- and firewall-based controls struggle to spot PII/PHI without breaking model context. (2026-09-08, online session, https://community.citrix.com/events/event/157-citrix-netscaler-ai-gateway-protecto-securing-enterprise-llm-traffic/)
+**Citrix NetScaler AI Gateway + Protecto: Securing Enterprise LLM Traffic.** Webinar demonstrating how NetScaler AI Gateway paired with Protecto secures LLM traffic at the infrastructure layer, with NetScaler handling routing, policy and observability while Protecto masks or tokenizes sensitive data in prompts and agent workflows before it reaches the model. (2026-09-08, online session, https://community.citrix.com/events/event/157-citrix-netscaler-ai-gateway-protecto-securing-enterprise-llm-traffic/)
 
-**Citrix Connect Pulse Toronto.** One-day regional version of Citrix Connect covering Citrix vision and strategy, practical approaches to stabilizing and upgrading environments, and ways to reduce complexity for admins and technical teams. (2026-09-09, Toronto, https://community.citrix.com/events/event/147-citrix-connect-pulse-toronto/)
+**Citrix Connect Pulse Toronto.** Regional edition of Citrix Connect focused on Citrix vision and strategy, practical guidance for stabilizing and upgrading environments, and ways for admins to reduce infrastructure complexity. (2026-09-09, Toronto, https://community.citrix.com/events/event/147-citrix-connect-pulse-toronto/)
 
 ---
 
 ## Metadata
 
 <sub>
-Covering dailies 2026-09-07 → 2026-09-07 · Generated 2026-09-07<br>
+Covering dailies 2026-09-07 → 2026-09-08 · Generated 2026-09-08<br>
 Phases run: security, downloads, catalog, whatsnew, press, community, weekly<br>
-Open defects: 4 — see <code>.skill-bugs.md</code>
+Open defects: 5 — see <code>.skill-bugs.md</code>
 </sub>
