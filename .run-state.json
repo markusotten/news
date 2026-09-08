@@ -11,7 +11,7 @@
   ],
   "in_progress": {
     "date": "2026-09-08",
-    "completed_phases": ["security", "downloads", "catalog", "whatsnew", "press"],
+    "completed_phases": ["security", "downloads", "catalog", "whatsnew", "press", "community"],
     "whatsnew_done": [
       "Citrix Aidrien", "Citrix Analytics", "Citrix Cloud", "Citrix Cloud Government",
       "Citrix Cloud Japan", "Client app management", "Citrix DaaS", "Citrix DaaS Flex",
