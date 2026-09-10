@@ -25,14 +25,20 @@ None.
 
 **Citrix Connect Pulse Toronto.** Regional edition of Citrix Connect focused on Citrix vision and strategy, practical guidance for stabilizing and upgrading environments, and ways for admins to reduce infrastructure complexity. (2026-09-09, Toronto, https://community.citrix.com/events/event/147-citrix-connect-pulse-toronto/)
 
-**Citrix Connect Pulse Arlington.** Regional edition of Citrix Connect covering the same vision, stabilization and upgrade guidance, and complexity-reduction themes as the wider Connect Pulse series. (2026-09-15, Arlington, https://community.citrix.com/events/event/148-citrix-connect-pulse-arlington/)
+**2026-09-10**
+
+**Citrix Connect Pulse Arlington.** Regional edition of Citrix Connect focused on Citrix vision and strategy, practical guidance for stabilizing and upgrading environments, and ways for admins to reduce infrastructure complexity. (2026-09-15, Arlington, https://community.citrix.com/events/event/148-citrix-connect-pulse-arlington/)
+
+**Learn how to configure NetScaler Gateway with SAML Service Provider Authentication for Secure Citrix Remote Access.** A new Tech Zone deployment guide walking through configuring NetScaler Gateway as a SAML service provider for secure remote access to Citrix resources, provided as a customizable implementation template. (2026-09-09, https://community.citrix.com/tech-zone/build/deployment-guides/learn-how-to-configure-netscaler-gateway-with-saml-service-provider-authentication-for-secure-citrix-remote-access-r381/)
+
+**Managing TLS at enterprise scale in a world of short-lived certificates.** A Tech Zone blog post on why certificate lifetimes are shrinking industry-wide and how NetScaler administrators can move from manual renewal tracking to ACME-based automated certificate management at scale. (2026-09-10, https://community.citrix.com/techzone-blogs/netscaler/managing-tls-at-enterprise-scale-in-a-world-of-short-lived-certificates-r1611/)
 
 ---
 
 ## Metadata
 
 <sub>
-Covering dailies 2026-09-07 → 2026-09-09 · Generated 2026-09-09<br>
+Covering dailies 2026-09-07 → 2026-09-10 · Generated 2026-09-10<br>
 Phases run: security, downloads, catalog, whatsnew, press, community, weekly<br>
-Open defects: 5 — see <code>.skill-bugs.md</code>
+Open defects: 6 — see <code>.skill-bugs.md</code>
 </sub>
