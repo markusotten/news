@@ -13,7 +13,8 @@
     "date": "2026-09-11",
     "completed_phases": [
       "security",
-      "downloads"
+      "downloads",
+      "catalog"
     ],
     "feeds_done": [],
     "whatsnew_done": []
