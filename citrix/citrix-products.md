@@ -47,6 +47,7 @@ The **What's New URL** column is read by Phase 4 so it never has to rediscover a
 | Citrix Ready Workspace Hub | https://docs.citrix.com/en-us/citrix-ready-workspace-hub | unverified: https://docs.citrix.com/en-us/citrix-ready-workspace-hub |
 | Citrix Receiver | https://docs.citrix.com/en-us/receiver | none |
 | Citrix Remote Browser Isolation | https://docs.citrix.com/en-us/citrix-remote-browser-isolation | https://docs.citrix.com/en-us/citrix-remote-browser-isolation/whats-new.html |
+| Citrix SD-WAN | https://docs.netscaler.com/en-us/citrix-sd-wan | none |
 | Citrix Secure Access | https://docs.citrix.com/en-us/citrix-secure-access | unverified: https://docs.citrix.com/en-us/citrix-secure-access |
 | Citrix Secure Developer Spaces | https://docs.citrix.com/en-us/secure-developer-spaces | https://docs.citrix.com/en-us/secure-developer-spaces#whats-new |
 | Citrix Secure Hub | https://docs.citrix.com/en-us/citrix-secure-hub | https://docs.citrix.com/en-us/citrix-secure-hub/overview.html#whats-new-in-the-current-version |
