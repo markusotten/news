@@ -12,8 +12,8 @@
   "in_progress": {
     "run_date": "2026-09-13",
     "window_start": "2026-09-12T02:19:54Z",
-    "completed_phases": ["security"],
-    "feeds_done": [],
+    "completed_phases": ["security", "downloads"],
+    "feeds_done": ["all"],
     "whatsnew_done": []
   }
 }
