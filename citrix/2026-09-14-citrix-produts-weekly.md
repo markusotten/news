@@ -31,6 +31,10 @@
 
 **Citrix SD-WAN added to the catalog.** Reconciliation against `docs.netscaler.com`'s product index found the whole Citrix SD-WAN product line (main product plus Center, Orchestrator, Orchestrator for On-premises, Platforms and WANOP sub-components) documented but never tracked in the product catalog, despite already having its own download RSS feed. Added as a single catalog row (sub-components roll up under it, matching how other multi-component product lines are tracked); it has no dedicated what's-new page. ([docs](https://docs.netscaler.com/en-us/citrix-sd-wan))
 
+**2026-09-13**
+
+**Five NetScaler-side products added to the catalog.** Reconciliation against `docs.netscaler.com`'s product index turned up five documented, distinct products that were never tracked: NetScaler BLX and NetScaler CPX (containerized/bare-metal NetScaler ADC form factors, alongside the already-tracked NetScaler SDX appliance form factor), NetScaler Kubernetes Gateway Controller, NetScaler xDS Adapter (the NetScaler/Istio service-mesh integration, listed in the index as "Citrix Istio Adapter"), and Citrix Secure Web Gateway. None has a discoverable what's-new page. ([NetScaler BLX](https://docs.netscaler.com/en-us/blx), [NetScaler CPX](https://docs.netscaler.com/en-us/cpx), [Kubernetes Gateway Controller](https://docs.netscaler.com/en-us/netscaler-kubernetes-gateway-controller), [xDS Adapter](https://docs.netscaler.com/en-us/netscaler-istio-adapter), [Secure Web Gateway](https://docs.netscaler.com/en-us/citrix-secure-web-gateway))
+
 ## Community
 
 **2026-09-08**
@@ -66,7 +70,7 @@
 ## Metadata
 
 <sub>
-Covering dailies 2026-09-07 → 2026-09-12 · Generated 2026-09-12<br>
+Covering dailies 2026-09-07 → 2026-09-13 · Generated 2026-09-13<br>
 Phases run: security, downloads, catalog, whatsnew, press, community, weekly<br>
 Open defects: 5 — see <code>.skill-bugs.md</code>
 </sub>
