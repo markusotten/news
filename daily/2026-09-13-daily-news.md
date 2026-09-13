@@ -25,6 +25,6 @@ None.
 
 <sub>
 Window: 2026-09-12T02:19:54Z → 2026-09-13T02:06:38Z · Last successful run: 2026-09-12T02:19:54Z<br>
-Phases run: security, downloads, catalog, whatsnew<br>
+Phases run: security, downloads, catalog, whatsnew, press<br>
 Open defects: 4 — see <code>.skill-bugs.md</code>
 </sub>
