@@ -13,6 +13,8 @@ None.
 
 #### Changes
 
+**Five NetScaler-side products added to the catalog.** Reconciliation against `docs.netscaler.com`'s product index turned up five documented, distinct products that were never tracked: NetScaler BLX and NetScaler CPX (containerized/bare-metal NetScaler ADC form factors, alongside the already-tracked NetScaler SDX appliance form factor), NetScaler Kubernetes Gateway Controller, NetScaler xDS Adapter (the NetScaler/Istio service-mesh integration, listed in the index as "Citrix Istio Adapter"), and Citrix Secure Web Gateway. None has a discoverable what's-new page. ([NetScaler BLX](https://docs.netscaler.com/en-us/blx), [NetScaler CPX](https://docs.netscaler.com/en-us/cpx), [Kubernetes Gateway Controller](https://docs.netscaler.com/en-us/netscaler-kubernetes-gateway-controller), [xDS Adapter](https://docs.netscaler.com/en-us/netscaler-istio-adapter), [Secure Web Gateway](https://docs.netscaler.com/en-us/citrix-secure-web-gateway))
+
 ### Press
 
 ### Community
@@ -23,6 +25,6 @@ None.
 
 <sub>
 Window: 2026-09-12T02:19:54Z → 2026-09-13T02:06:38Z · Last successful run: 2026-09-12T02:19:54Z<br>
-Phases run: security, downloads<br>
+Phases run: security, downloads, catalog<br>
 Open defects: 4 — see <code>.skill-bugs.md</code>
 </sub>

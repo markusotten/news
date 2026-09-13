@@ -36,12 +36,16 @@ The **What's New URL** column is read by Phase 4 so it never has to rediscover a
 | Mobile Productivity Apps | https://docs.citrix.com/en-us/mobile-productivity-apps | unverified: https://docs.citrix.com/en-us/mobile-productivity-apps |
 | NetScaler (ADC) | https://docs.netscaler.com/en-us/citrix-adc | https://docs.netscaler.com/en-us/citrix-adc#whats-new |
 | NetScaler Automation Toolkit | https://github.com/netscaler/automation-toolkit | none |
+| NetScaler BLX | https://docs.netscaler.com/en-us/blx | none |
 | NetScaler Console | https://docs.netscaler.com/en-us/netscaler-application-delivery-management-software | https://docs.netscaler.com/en-us/netscaler-application-delivery-management-software#whats-new |
+| NetScaler CPX | https://docs.netscaler.com/en-us/cpx | none |
 | NetScaler Hardware Platforms | https://docs.netscaler.com/en-us/netscaler-hardware-platforms | none |
 | NetScaler Console Service | https://docs.netscaler.com/en-us/netscaler-console-service/ | https://docs.netscaler.com/en-us/netscaler-console-service/#whats-new |
 | NetScaler Gateway | https://docs.netscaler.com/en-us/netscaler-gateway | https://docs.netscaler.com/en-us/netscaler-gateway#whats-new |
+| NetScaler Kubernetes Gateway Controller | https://docs.netscaler.com/en-us/netscaler-kubernetes-gateway-controller | none |
 | NetScaler Observability Exporter | https://docs.netscaler.com/en-us/netscaler-observability-exporter | none |
 | NetScaler SDX | https://docs.netscaler.com/en-us/sdx | https://docs.netscaler.com/en-us/sdx#whats-new |
+| NetScaler xDS Adapter (Istio) | https://docs.netscaler.com/en-us/netscaler-istio-adapter | none |
 | Profile Management | https://docs.citrix.com/en-us/profile-management | https://docs.citrix.com/en-us/profile-management/current-release/whats-new.html |
 | Citrix Provisioning | https://docs.citrix.com/en-us/provisioning | https://docs.citrix.com/en-us/provisioning/current-release/whats-new.html |
 | Citrix Ready Workspace Hub | https://docs.citrix.com/en-us/citrix-ready-workspace-hub | unverified: https://docs.citrix.com/en-us/citrix-ready-workspace-hub |
@@ -54,6 +58,7 @@ The **What's New URL** column is read by Phase 4 so it never has to rediscover a
 | Citrix Secure Mail | https://docs.citrix.com/en-us/citrix-secure-mail | https://docs.citrix.com/en-us/citrix-secure-mail/whats-new.html |
 | Citrix Secure Private Access | https://docs.citrix.com/en-us/citrix-secure-private-access | unverified: https://docs.citrix.com/en-us/legacy-archive/citrix-secure-private-access.html |
 | Citrix Secure Web | https://docs.citrix.com/en-us/citrix-secure-web | https://docs.citrix.com/en-us/citrix-secure-web/whats-new.html |
+| Citrix Secure Web Gateway | https://docs.netscaler.com/en-us/citrix-secure-web-gateway | none |
 | Self Service Password Reset | https://docs.citrix.com/en-us/self-service-password-reset | https://docs.citrix.com/en-us/self-service-password-reset/current-release/whats-new.html |
 | Session Recording | https://docs.citrix.com/en-us/session-recording | https://docs.citrix.com/en-us/session-recording/current-release/whats-new.html |
 | Session Recording Service | https://docs.citrix.com/en-us/session-recording-service | unverified: https://docs.citrix.com/en-us/session-recording/service |
