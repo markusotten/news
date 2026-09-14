@@ -1,13 +1,11 @@
-# Daily News
-*Covering Monday 2026-09-14*
+# Citrix Product Update - Weekly Rollup
+*Covering Monday 2026-09-14 to Sunday 2026-09-20*
 
-## Citrix
-
-### Security Bulletin
+## Security Bulletin
 
 None.
 
-### Community
+## Community
 
 **Citrix Connect Pulse Arlington.** A one-day in-person event bringing Citrix vision/strategy content, practical guidance on stabilizing and upgrading Citrix environments, and networking with Citrix admins and practitioners to Arlington. (2026-09-15, [event](https://community.citrix.com/events/event/148-citrix-connect-pulse-arlington/))
 
@@ -16,7 +14,7 @@ None.
 ## Metadata
 
 <sub>
-Window: 2026-09-13T02:18:33Z → 2026-09-14T02:17:52Z · Last successful run: 2026-09-13T02:18:33Z<br>
+Covering dailies 2026-09-14 → 2026-09-14 · Generated 2026-09-14<br>
 Phases run: security, downloads, catalog, whatsnew, press, community, weekly<br>
 Open defects: 4 — see <code>.skill-bugs.md</code>
 </sub>
