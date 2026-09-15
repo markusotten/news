@@ -14,7 +14,7 @@ None.
 ## Metadata
 
 <sub>
-Covering dailies 2026-09-14 → 2026-09-14 · Generated 2026-09-14<br>
+Covering dailies 2026-09-14 → 2026-09-15 · Generated 2026-09-15<br>
 Phases run: security, downloads, catalog, whatsnew, press, community, weekly<br>
-Open defects: 4 — see <code>.skill-bugs.md</code>
+Open defects: 5 — see <code>.skill-bugs.md</code>
 </sub>
