@@ -53,12 +53,12 @@ The **What's New URL** column is read by Phase 4 so it never has to rediscover a
 | Citrix Remote Browser Isolation | https://docs.citrix.com/en-us/citrix-remote-browser-isolation | https://docs.citrix.com/en-us/citrix-remote-browser-isolation/whats-new.html |
 | Citrix SD-WAN | https://docs.netscaler.com/en-us/citrix-sd-wan | none |
 | Citrix Secure Access | https://docs.citrix.com/en-us/citrix-secure-access | unverified: https://docs.citrix.com/en-us/citrix-secure-access |
-| Citrix Secure Developer Spaces | https://docs.citrix.com/en-us/secure-developer-spaces | https://docs.citrix.com/en-us/secure-developer-spaces#whats-new |
 | Citrix Secure Hub | https://docs.citrix.com/en-us/citrix-secure-hub | https://docs.citrix.com/en-us/citrix-secure-hub/overview.html#whats-new-in-the-current-version |
 | Citrix Secure Mail | https://docs.citrix.com/en-us/citrix-secure-mail | https://docs.citrix.com/en-us/citrix-secure-mail/whats-new.html |
 | Citrix Secure Private Access | https://docs.citrix.com/en-us/citrix-secure-private-access | unverified: https://docs.citrix.com/en-us/legacy-archive/citrix-secure-private-access.html |
 | Citrix Secure Web | https://docs.citrix.com/en-us/citrix-secure-web | https://docs.citrix.com/en-us/citrix-secure-web/whats-new.html |
 | Citrix Secure Web Gateway | https://docs.netscaler.com/en-us/citrix-secure-web-gateway | none |
+| Citrix SecurSpaces (formerly Citrix Secure Developer Spaces) | https://docs.citrix.com/en-us/secure-developer-spaces | unverified: https://docs.citrix.com/en-us/secure-developer-spaces |
 | Self Service Password Reset | https://docs.citrix.com/en-us/self-service-password-reset | https://docs.citrix.com/en-us/self-service-password-reset/current-release/whats-new.html |
 | Session Recording | https://docs.citrix.com/en-us/session-recording | https://docs.citrix.com/en-us/session-recording/current-release/whats-new.html |
 | Session Recording Service | https://docs.citrix.com/en-us/session-recording-service | unverified: https://docs.citrix.com/en-us/session-recording/service |
