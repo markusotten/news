@@ -65,6 +65,10 @@ None.
 
 **Inside the browser: A Citrix and Google perspective.** A joint Citrix/Google webinar (first episode of a new series) on how browser-centric work is reshaping security strategy, covering AI governance and data protection, securing access across managed and unmanaged devices, and enabling productivity without increasing risk; speakers are Citrix VP/Futurist Brian Madden and Google's Robert DeVito. (2026-09-24, [event](https://community.citrix.com/events/event/159-inside-the-browser-a-citrix-and-google-perspective/))
 
+**2026-09-19**
+
+**How Do I: Automate TLS Certificate Renewal on NetScaler Console Using ACME.** A Tech Zone how-to walking through using NetScaler Console with the ACME protocol (via `acme.sh` and DNS-01 challenge validation) to automate TLS certificate issuance and renewal, then extending that automation to deployment across managed instances with Zero-touch Certificate Management, turning certificate lifecycle management into a repeatable workflow instead of a manual scramble. (2026-09-18, [article](https://community.citrix.com/techzone-blogs/netscaler/how-do-i-automate-tls-certificate-renewal-on-netscaler-console-using-acme-r1618/))
+
 ## Deep Dives
 
 **Citrix launches AI-powered Session Insights.** ([announcement](https://www.citrix.com/news/announcements/sep-2026/citrix-session-insights-launches-to-strengthen-security-for-user-and-autonomous-agent-activity-with-ai-powered-security-intelligence.html), [blog](https://www.citrix.com/blogs/2026/09/15/introducing-ai-powered-session-insights/))
@@ -82,7 +86,7 @@ Session Insights is a new AI-powered capability for Citrix SecurAccess with Chro
 ## Metadata
 
 <sub>
-Covering dailies 2026-09-14 → 2026-09-18 (week in progress) · Generated 2026-09-18<br>
+Covering dailies 2026-09-14 → 2026-09-19 (week in progress) · Generated 2026-09-19<br>
 Phases run: security, downloads, catalog, whatsnew, press, community, weekly<br>
-Open defects: 8 — see <code>.skill-bugs.md</code>
+Open defects: 7 — see <code>.skill-bugs.md</code>
 </sub>
