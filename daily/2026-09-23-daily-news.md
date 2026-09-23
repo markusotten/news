@@ -11,8 +11,9 @@ None.
 
 #### Releases
 
-- **Citrix Workspace app for HTML5 (Tech Preview).** New download published under Citrix Workspace app's beta and tech-preview channel. (2026-09-22, [download](http://www.citrix.com/downloads/workspace-app/betas-and-tech-previews/workspace-app-tp-for-html5.html))
-- **Browser Content Redirection Download Files.** New download files published for Browser Content Redirection on Windows. (2026-09-22, [download](http://www.citrix.com/downloads/workspace-app/browser-content-redirection-windows/bcr-files.html))
+**Citrix Workspace app - Workspace App for HTML5 (Tech Preview).** New download published under Citrix Workspace app's beta and tech-preview channel, letting admins try the browser-based HTML5 client ahead of general availability. (2026-09-22, [download](http://www.citrix.com/downloads/workspace-app/betas-and-tech-previews/workspace-app-tp-for-html5.html))
+
+**Citrix Workspace app - Browser Content Redirection Download Files.** New download files published for Browser Content Redirection on Windows, used to offload rendering of specified web content to the local endpoint. (2026-09-22, [download](http://www.citrix.com/downloads/workspace-app/browser-content-redirection-windows/bcr-files.html))
 
 ### Community
 
@@ -24,6 +25,6 @@ None.
 
 <sub>
 Window: 2026-09-22T02:24:35Z → 2026-09-23T02:17:37Z · Last successful run: 2026-09-22T02:24:35Z<br>
-Phases run: security, downloads<br>
-Open defects: 5 — see <code>.skill-bugs.md</code>
+Phases run: security, downloads, catalog, whatsnew, press, community<br>
+Open defects: 6 — see <code>.skill-bugs.md</code>
 </sub>
