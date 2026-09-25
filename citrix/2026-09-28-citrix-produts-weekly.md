@@ -19,6 +19,16 @@ None.
 
 **Citrix Workspace app - Browser Content Redirection Download Files.** New download files published for Browser Content Redirection on Windows, used to offload rendering of specified web content to the local endpoint. (2026-09-22, [download](http://www.citrix.com/downloads/workspace-app/browser-content-redirection-windows/bcr-files.html))
 
+**2026-09-25**
+
+**XenServer 9 - Installation ISO.** New XenServer 9 build (2026-09-24.1025) bundling all updates in the XenServer 9 Normal channel through September 24, 2026. (2026-09-24, [download](https://downloads.xenserver.com/xenserver/2026-09-24.1025/XenServer9_2026-09-24.iso))
+
+**XenServer 9 - Source ISO.** Source installation ISO for the same 2026-09-24.1025 build. (2026-09-24, [download](https://downloads.xenserver.com/xenserver/2026-09-24.1025/XenServer9_2026-09-24_source.iso))
+
+**Citrix Secure Access - Client for macOS 26.09.1.1.** New macOS client build published for Citrix Secure Access. (2026-09-24, [download](http://www.citrix.com/downloads/citrix-secure-access/plug-ins/citrix-secure-access-client-for-macOS.html))
+
+**Unicon eLux Scout - CWA 2608 EAR.** New early access release of Citrix Workspace app 2608 published for UniconOS. (2026-09-24, [download](http://www.citrix.com/downloads/Elux-Download-Pages/EARDownloads/DownloadCWAEAR.html))
+
 ## Community
 
 **2026-09-21**
@@ -39,12 +49,22 @@ None.
 
 **What's New and What's Next with Citrix: August 2026.** Webinar recording covering the latest updates across Citrix DaaS, Secure Access, Observability, Unicon, NetScaler and Aidrien, aimed at admins wanting practical, actionable highlights from the month's releases. (2026-09-22, [video](https://www.youtube.com/watch?v=1qRCeHEAWUw), Citrix YouTube channel)
 
+**2026-09-25**
+
+**NetScaler WAF Signatures Update v183.** A new Web App Firewall signature bundle to help customers virtually patch several third-party CVEs behind NetScaler, including an Adobe ColdFusion arbitrary file upload flaw (CVE-2026-48282) and an Elementor Pro WordPress plugin file upload flaw (CVE-2026-32475). (2026-09-24, [Tech Zone](https://community.citrix.com/techzone-blogs/110_security-updates/netscaler-waf-signatures-update-v183/))
+
+**Citrix Connect Pulse is on the move — five more cities to go.** A Tech Zone recap promoting the remaining October stops of the Citrix Connect Pulse 2026 in-person event series, one-day sessions covering Citrix vision/strategy and practical upgrade and simplification guidance for admins and technical teams. (2026-09-24, [Tech Zone](https://community.citrix.com/techzone-blogs/115_community-updates/citrix-connect-pulse-is-on-the-move-five-more-cities-to-go/))
+
+**What's New in Citrix SecurSpaces 2026.9.** A Tech Zone post detailing the September release of Citrix SecurSpaces (formerly Secure Developer Spaces), covering desired-state configuration and lifecycle management for workspace templates, AI usage reporting by project/user/model, and expanded developer self-service controls. (2026-09-24, [Tech Zone](https://community.citrix.com/techzone-blogs/securspaces/whats-new-in-citrix-secure-developer-spaces-20269/))
+
+**Future-proofing healthcare IT with Citrix Platform Flex.** A Citrix webinar recording on how healthcare organizations can improve resilience, simplify operations, and modernize IT with a flexible, persona-based approach to secure application access. (2026-09-24, [video](https://www.youtube.com/watch?v=13QRFbelS-4), Citrix YouTube channel)
+
 ---
 
 ## Metadata
 
 <sub>
-Covering dailies 2026-09-21 → 2026-09-24 · Generated 2026-09-24<br>
+Covering dailies 2026-09-21 → 2026-09-25 · Generated 2026-09-25<br>
 Phases run: security, downloads, catalog, whatsnew, press, community, weekly<br>
-Open defects: 8 — see <code>.skill-bugs.md</code>
+Open defects: 7 — see <code>.skill-bugs.md</code>
 </sub>
