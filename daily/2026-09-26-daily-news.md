@@ -36,7 +36,7 @@ None.
 ## Metadata
 
 <sub>
-Window: 2026-09-25T02:30:11Z → (in progress)<br>
-Phases run: security, downloads, catalog, whatsnew, press, community<br>
+Window: 2026-09-25T02:30:11Z → 2026-09-26T02:35:00Z · Last successful run: 2026-09-25T02:30:11Z<br>
+Phases run: security, downloads, catalog, whatsnew, press, community, weekly<br>
 Open defects: 7 — see <code>.skill-bugs.md</code>
 </sub>

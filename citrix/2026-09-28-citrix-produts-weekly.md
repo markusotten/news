@@ -29,6 +29,24 @@ None.
 
 **Unicon eLux Scout - CWA 2608 EAR.** New early access release of Citrix Workspace app 2608 published for UniconOS. (2026-09-24, [download](http://www.citrix.com/downloads/Elux-Download-Pages/EARDownloads/DownloadCWAEAR.html))
 
+**2026-09-26**
+
+**Unicon eLux Scout - UniconOS 2607.2.** New general-availability release of the UniconOS software packages (AllPackages, BaseOS and Desktop environment components), the core thin-client OS underpinning Unicon eLux Scout deployments. (2026-09-25, [download](http://www.citrix.com/downloads/Elux-Download-Pages/Elux-Software-Packages/eLux-Software-Packages-CR1.html))
+
+**Unicon eLux Scout - UniconOS ISO Images 2607.2.** New installable ISO image for the UniconOS 2607.2 release, for fresh installs of the thin-client OS. (2026-09-25, [download](http://www.citrix.com/downloads/Elux-Download-Pages/Elux-Software-Sticks/eLux-ISO-Images.html))
+
+**Unicon eLux Scout - UniconOS Portable Stick 2607.2.** New portable USB stick image for running UniconOS 2607.2 without a local install. (2026-09-25, [download](http://www.citrix.com/downloads/Elux-Download-Pages/Elux-Software-Sticks/eLux-Portable.html))
+
+**Unicon eLux Scout - UniconOS Recovery Stick 2607.2.** New USB recovery stick image matching the UniconOS 2607.2 release, for restoring thin clients from failure. (2026-09-25, [download](http://www.citrix.com/downloads/Elux-Download-Pages/Elux-Software-Sticks/eLux-USB-Recovery-Stick.html))
+
+**Unicon eLux Scout - UniconOS BCDR Dual Boot 2607.2.** New dual-boot business-continuity/disaster-recovery setup package built against UniconOS 2607.2. (2026-09-25, [download](http://www.citrix.com/downloads/Elux-Download-Pages/Elux-Software-Sticks/BCDR_Dual_Boot.html))
+
+**Unicon eLux Scout - UniconOS Management (Scout) 2607.** New build of the Scout management console used to administer UniconOS thin-client fleets. (2026-09-25, [download](http://www.citrix.com/downloads/Elux-Download-Pages/Scout-Elias/Scout.html))
+
+**Unicon eLux Scout - ELIAS 18 2603.2.** New Windows and Linux builds of ELIAS, the imaging/deployment tool used to prepare and roll out UniconOS thin-client images. (2026-09-25, [download](http://www.citrix.com/downloads/Elux-Download-Pages/Scout-Elias/Elias.html))
+
+**Unicon eLux Scout - UniconOS Migration Tools.** New builds of the igel2elux and win2eLux7 migration utilities, used to convert IGEL- and Windows-based thin clients to UniconOS. (2026-09-25, [download](http://www.citrix.com/downloads/Elux-Download-Pages/Elux-Scout-Tool/eLux_Migration_Tools.html))
+
 ## Community
 
 **2026-09-21**
@@ -39,11 +57,11 @@ None.
 
 **Deep Dive Webinar Series - DaaS/LTSR.** A 60-minute technical webinar covering Citrix Virtual Apps and Desktops 2607 LTSR's operations, security, user-experience and infrastructure capabilities, intended for admins planning upgrades or prioritizing stability. (2026-09-23, [event](https://community.citrix.com/events/event/156-deep-dive-webinar-series-daasltsr/))
 
-**Inside the browser: A Citrix and Google perspective.** The first episode of a joint Citrix/Google webinar series on how browser-centric work is reshaping security strategy, covering AI governance, data protection across managed and unmanaged devices, and enabling productivity without increasing risk; speakers are Citrix VP/Futurist Brian Madden and Google's Robert DeVito. (2026-09-24, [event](https://community.citrix.com/events/event/159-inside-the-browser-a-citrix-and-google-perspective/))
+**Inside the browser: A Citrix and Google perspective.** The first episode of a joint Citrix/Google webinar series on how browser-centric work is reshaping security strategy, covering AI governance and data protection, and approaches to securing access across managed and unmanaged devices without sacrificing productivity. (2026-09-24, webinar, [event](https://community.citrix.com/events/event/159-inside-the-browser-a-citrix-and-google-perspective/))
 
 **2026-09-22**
 
-**EUC World Amplify.** A multi-day in-person conference in Milwaukee (September 29–October 1) for the end-user-computing community, with Citrix participating as a Gold Sponsor and staffing an on-site presence throughout. (2026-09-29, [event](https://community.citrix.com/events/event/143-euc-world-amplify/))
+**EUC World Amplify.** A multi-day in-person conference in Milwaukee (September 29 – October 1) where Citrix will be a Gold Sponsor, connecting with the End User Computing community throughout the event. (2026-09-29, Milwaukee, [event](https://community.citrix.com/events/event/143-euc-world-amplify/))
 
 **2026-09-23**
 
@@ -64,7 +82,7 @@ None.
 ## Metadata
 
 <sub>
-Covering dailies 2026-09-21 → 2026-09-25 · Generated 2026-09-25<br>
+Covering dailies 2026-09-21 → 2026-09-26 · Generated 2026-09-26<br>
 Phases run: security, downloads, catalog, whatsnew, press, community, weekly<br>
 Open defects: 7 — see <code>.skill-bugs.md</code>
 </sub>
