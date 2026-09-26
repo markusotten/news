@@ -27,12 +27,16 @@ None.
 
 **Unicon eLux Scout - UniconOS Migration Tools.** New builds of the igel2elux and win2eLux7 migration utilities, used to convert IGEL- and Windows-based thin clients to UniconOS. (2026-09-25, [download](http://www.citrix.com/downloads/Elux-Download-Pages/Elux-Scout-Tool/eLux_Migration_Tools.html))
 
+### Community
+
+**EUC World Amplify.** A multi-day in-person conference in Milwaukee (September 29 – October 1) where Citrix will be a Gold Sponsor, connecting with the End User Computing community throughout the event. (2026-09-29, Milwaukee, [event](https://community.citrix.com/events/event/143-euc-world-amplify/))
+
 ---
 
 ## Metadata
 
 <sub>
 Window: 2026-09-25T02:30:11Z → (in progress)<br>
-Phases run: security, downloads, catalog, whatsnew, press<br>
+Phases run: security, downloads, catalog, whatsnew, press, community<br>
 Open defects: 7 — see <code>.skill-bugs.md</code>
 </sub>
