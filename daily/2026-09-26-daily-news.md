@@ -33,6 +33,6 @@ None.
 
 <sub>
 Window: 2026-09-25T02:30:11Z → (in progress)<br>
-Phases run: security, downloads<br>
+Phases run: security, downloads, catalog<br>
 Open defects: 7 — see <code>.skill-bugs.md</code>
 </sub>
