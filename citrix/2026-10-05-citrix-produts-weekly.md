@@ -1,30 +1,42 @@
-# Daily News
-*Covering Monday 2026-09-28*
+# Citrix Product Update - Weekly Rollup
+*Covering Monday 2026-09-28 to Sunday 2026-10-04*
 
-## Citrix
-
-### Security Bulletin
+## Security Bulletin
 
 **NetScaler ADC and NetScaler Gateway — CVE-2026-88771, CVE-2026-88772, CVE-2026-88773, CVE-2026-88774, CVE-2026-88775, CVE-2026-88776, CVE-2026-88777, CVE-2026-88778.** Citrix disclosed eight vulnerabilities in NetScaler ADC and NetScaler Gateway. CVE-2026-88771 (CVSS 4.0 9.5, improper input validation) lets an unauthenticated network attacker run arbitrary commands and affects every appliance on an affected version in its default configuration, with no optional feature required. CVE-2026-88772 (CVSS 4.0 9.5, memory overflow) can cause remote code execution or denial of service when DTLS is enabled, which is on by default for VPN virtual servers. CVE-2026-88773 (CVSS 9.3, HTTP request smuggling) and CVE-2026-88774 through 88778 (CVSS 7.0–8.8, further memory-overflow and predictable-value-generation issues) require more specific configurations such as a Gateway or AAA virtual server. Affected: NetScaler ADC and Gateway before 14.1-73.37, before 13.1-64.23, and their FIPS/NDcPP builds before 14.1-73.37 FIPS and 13.1-37.279 FIPS/NDcPP. Fixed in those respective builds; CVE-2026-88778 also requires separately enabling Enhanced ISN Generation after upgrading. No authentication is required for CVE-2026-88771/88772; the others assume a non-default Gateway/AAA/DTLS configuration already in place. Remediation: capture logs, a configuration snapshot, a support bundle and a core dump from each internet-facing appliance for forensic purposes *before* patching (the update removes the evidence), check for indicators of compromise per CTX694799, then install the fixed build; rotate credentials and certificates afterward. Exploitation status: **actively exploited** — CVE-2026-88771 and CVE-2026-88772 were exploited as zero-days before the fix shipped and were added to CISA's Known Exploited Vulnerabilities catalog on 2026-09-27; the remaining six carry no reported exploitation. [CTX697096](https://support.citrix.com/external/article/CTX697096/citrix-netscaler-adc-and-citrix-netscale.html), [CISA alert](https://www.cisa.gov/news-events/alerts/2026/09/27/critical-zero-day-vulnerabilities-exploited-citrix-netscaler-adc-gateway), [BleepingComputer](https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/)
 
-### Products
+## Products
 
-#### Releases
+### Releases
+
+**2026-09-28**
 
 **NetScaler ADC/Gateway 14.1 Build 73.37 and 13.1 Build 64.24 (Maintenance Phase), plus FIPS builds.** New maintenance-release builds across the 14.1 and 13.1 branches — VPX, VPX FIPS, CPX, BLX and appliance firmware, plus matching Citrix Gateway 14.1/13.1 builds — carrying the fixes named in the CVE-2026-88771 through CVE-2026-88778 bulletin above. (2026-09-27, [NetScaler 14.1 firmware](http://www.citrix.com/downloads/citrix-adc/firmware/release-14-1-build-73-37.html), [NetScaler 13.1 firmware](http://www.citrix.com/downloads/citrix-adc/firmware/release-13-1-build-64-24.html), [NetScaler VPX FIPS 14.1](http://www.citrix.com/downloads/citrix-adc/virtual-appliances/netscaler-vpx-release-141-73-37-fips.html), [NetScaler VPX FIPS 13.1](http://www.citrix.com/downloads/citrix-adc/virtual-appliances/netscaler-vpx-release-131-FIPS.html), [NetScaler FIPS 14.1](http://www.citrix.com/downloads/citrix-adc/firmware/release-141-build-73-37-fips.html), [NetScaler FIPS 13.1](http://www.citrix.com/downloads/citrix-adc/firmware/release-131-build-37279.html), [NetScaler BLX 14.1](http://www.citrix.com/downloads/citrix-adc/bare-metal-adc/blx-14-1-73-37.html), [NetScaler BLX 13.1](http://www.citrix.com/downloads/citrix-adc/bare-metal-adc/blx-13-1-64-24.html), [NetScaler CPX 14.1](http://www.citrix.com/downloads/citrix-adc/container-based-adc/cpx-14-1-73-37.html), [NetScaler CPX 13.1](http://www.citrix.com/downloads/citrix-adc/container-based-adc/cpx-13-1-64-24.html), [Citrix Gateway 14.1](http://www.citrix.com/downloads/citrix-gateway/product-software/citrix-gateway-14-1-build-73-37.html), [Citrix Gateway 13.1](http://www.citrix.com/downloads/citrix-gateway/product-software/citrix-gateway-13-1-build-64-24.html))
 
-### Community
+## Community
+
+**2026-09-28**
 
 **NetScaler ADC and NetScaler Gateway Security Bulletin for CVE-2026-88771 through CVE-2026-88778: guidance for customers.** A Tech Zone post accompanying the bulletin above adds operational detail Citrix's own advisory doesn't spell out: config-grep patterns to check each CVE's precondition, confirmation that CVE-2026-88773 was found internally while CVE-2026-88774 was already fixed since the 14.1-72.x branch, a known issue where upgrading to 13.1-64.23 can trigger a cyclic reboot on some configurations (fixed in 13.1-64.24, checkable via `show ns variable`), a NetScaler Console Security Advisory false-positive that can misflag 13.1-64.23 as still vulnerable, and new generic Indicators-of-Compromise scanning in NetScaler Console (from 14.1-73.36) to help assess prior compromise. (2026-09-27, [Tech Zone](https://community.citrix.com/techzone-blogs/110_security-updates/netscaler-adc-and-netscaler-gateway-security-bulletin-for-cve-2026-88771-through-cve-2026-88778/))
 
 **EUC World Amplify.** A multi-day in-person conference in Milwaukee (September 29 – October 1) where Citrix will be a Gold Sponsor, connecting with the End User Computing community throughout the event. (2026-09-29, [event](https://community.citrix.com/events/event/143-euc-world-amplify/))
+
+## Deep Dives
+
+**NetScaler ADC and NetScaler Gateway — critical zero-day RCE chain (CVE-2026-88771/88772) and six related hardening fixes.** Citrix shipped fixed builds (14.1-73.37 / 13.1-64.23, plus FIPS/NDcPP equivalents) for eight NetScaler ADC/Gateway vulnerabilities after confirming that two of them, CVE-2026-88771 and CVE-2026-88772, were being exploited as zero-days against unpatched internet-facing appliances. CVE-2026-88771 (CVSS 4.0 9.5) is an unauthenticated, default-configuration remote-code-execution flaw from improper input validation — every NetScaler ADC and Gateway deployment on an affected build is exposed with no optional feature required. CVE-2026-88772 (CVSS 4.0 9.5) is a memory-overflow bug reachable whenever DTLS is enabled, which is the out-of-the-box state for VPN virtual servers, and can cause either RCE or denial of service. The remaining six (CVE-2026-88773–88778, CVSS 7.0–8.8) cover HTTP request smuggling, a WAF-bypassing URL-normalization issue, further memory overflows tied to specific virtual-server configurations (Gateway/AAA, Oracle load balancing, non-HTTP L7 protocols), and a predictable TCP initial-sequence-number weakness that additionally requires enabling Enhanced ISN Generation after the upgrade to close.
+
+*Use cases.* Every organization running customer-managed NetScaler ADC or Gateway needs this patch regardless of configuration, since CVE-2026-88771 alone covers the default install; organizations additionally running Gateway/VPN, AAA, Oracle load balancing, CGNAT/NAT64 or non-default TCP/HTTP virtual-server types should treat the upgrade as mandatory rather than best-effort, since those configurations layer on the other six CVEs. Security teams should use NetScaler Console's new generic Indicators-of-Compromise scan (available from 14.1-73.36 with the telemetry channel enabled) to check for prior compromise before or shortly after patching, since two of the flaws were actively exploited pre-disclosure.
+
+*Pros, cons, and where the value lands.* The upgrade itself is a standard maintenance-phase firmware/VPX/CPX/BLX bump with no architecture change, so the operational cost is a normal patch cycle — except that Citrix explicitly recommends capturing forensic evidence (logs, config snapshot, support bundle, core dump) from every internet-facing appliance *before* patching, since the update itself removes the evidence a compromise investigation would need. That adds real time pressure and process overhead relative to a routine update, particularly for organizations with many appliances. The value is unusually concentrated for CVE-2026-88771/88772: because they are unauthenticated, remotely reachable and (for 88771) unconditional on configuration, timely patching removes the single highest-value target an external attacker has against a Citrix estate — the perimeter-facing NetScaler itself. A known operational wrinkle on the 13.1 branch (upgrading straight to 13.1-64.23 can trigger a cyclic reboot on some configurations; 13.1-64.24 fixes it, checkable via `show ns variable`) and a temporary NetScaler Console false-positive that can misflag 13.1-64.23 as still vulnerable are both worth planning around before a fleet-wide rollout.
+
+*What it replaces or changes.* This bulletin supersedes the 14.1-73.32+/13.1-63.21+ minimum versions set by the CVE-2026-19489/CVE-2026-19490 bulletin from 2026-08-19 as the current fixed baseline. It also tightens SAML handling as a side effect: the `samlRejectUnsignedAssertion OFF` configuration option is no longer supported, and the upgrade auto-converts any existing configuration using it to the secure default (always require signed, validated SAML assertions) with no administrator action required.
 
 ---
 
 ## Metadata
 
 <sub>
-Window: 2026-09-27T02:27:06Z → 2026-09-28T02:30:45Z · Last successful run: 2026-09-27T02:27:06Z<br>
+Covering dailies 2026-09-28 → 2026-09-28 · Generated 2026-09-28<br>
 Phases run: security, downloads, catalog, whatsnew, press, community, weekly<br>
 Open defects: 8 — see <code>.skill-bugs.md</code>
 </sub>
