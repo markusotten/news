@@ -8,6 +8,11 @@ As of: 2026-08-14, plus bulletins added incrementally by the daily skill run as 
 
 ---
 
+### Citrix NetScaler ADC and Citrix NetScaler Gateway Security Bulletin for CVE-2026-88771, CVE-2026-88772, CVE-2026-88773, CVE-2026-88774, CVE-2026-88775, CVE-2026-88776, CVE-2026-88777, and CVE-2026-88778
+2026-09-27 · Critical · [CTX697096](https://support.citrix.com/external/article/CTX697096/citrix-netscaler-adc-and-citrix-netscale.html)
+
+Eight vulnerabilities affect NetScaler ADC and NetScaler Gateway. CVE-2026-88771 (improper input validation, CVSS 4.0 9.5) lets an unauthenticated attacker run arbitrary commands and affects every appliance on an affected version by default, no optional feature required. CVE-2026-88772 (memory overflow, CVSS 4.0 9.5) can cause remote code execution or denial of service when DTLS is enabled, on by default for VPN virtual servers. CVE-2026-88773 (HTTP request smuggling, CVSS 9.3) and CVE-2026-88774–88778 (memory overflow / predictable value generation, CVSS 7.0–8.8) require a Gateway, AAA virtual server, or other non-default configuration. Affects builds before 14.1-73.37, before 13.1-64.23, and their FIPS/NDcPP equivalents before 14.1-73.37 FIPS and 13.1-37.279 FIPS/NDcPP; fixed in those builds (CVE-2026-88778 additionally needs Enhanced ISN Generation enabled post-upgrade). CVE-2026-88771 and CVE-2026-88772 were **actively exploited as zero-days** before the fix shipped and were added to CISA's KEV catalog on 2026-09-27; no exploitation reported for the other six. Citrix recommends capturing forensic evidence (logs, snapshot, support bundle, core dump) before patching and checking for indicators of compromise per CTX694799.
+
 ### NetScaler ADC and NetScaler Gateway Security Bulletin for CVE-2026-19489 and CVE-2026-19490
 2026-08-19 · Critical · [CTX696939](https://support.citrix.com/external/article/CTX696939/netscaler-adc-and-netscaler-gateway-secu.html)
 
